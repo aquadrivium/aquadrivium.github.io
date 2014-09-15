@@ -1,0 +1,1154 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Quadrivium :: Divulgación</title>
+
+		<link  sizes="144x144" href="apple-touch-icon-144-precomposed.png">
+    	<link rel="icon" type="image/png" href="./images/favicon_q.png">
+    	
+		<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		    			 <!-- /// Swicht Lenguage ////////  -->
+		<script src="js/styleswitch.js" type="text/javascript"></script>	
+
+		 <script src="js/jquery.min.js"></script>
+		 <!-- start-smoth-scrolling-->
+		<script type="text/javascript" src="./js/move-top.js"></script>
+		<script type="text/javascript" src="./js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!--<script type="text/javascript">
+			function getViewport() {
+ 				var viewPortWidth;
+ 				var viewPortHeight;
+ 				// the more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight
+ 				if (typeof window.innerWidth != 'undefined') {
+   					viewPortWidth = window.innerWidth,
+   					viewPortHeight = window.innerHeight
+ 				}
+				// IE6 in standards compliant mode (i.e. with a valid doctype as the first line in the document)
+ 				else if (typeof document.documentElement != 'undefined'
+ 					&& typeof document.documentElement.clientWidth !=
+ 					'undefined' && document.documentElement.clientWidth != 0) {
+    				viewPortWidth = document.documentElement.clientWidth,
+    				viewPortHeight = document.documentElement.clientHeight
+ 				}
+				 // older versions of IE
+ 				else {
+   					viewPortWidth = document.getElementsByTagName('body')[0].clientWidth,
+   					viewPortHeight = document.getElementsByTagName('body')[0].clientHeight
+ 				}
+ 				return [viewPortWidth, viewPortHeight];
+			}
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				[w, h] = getViewport();
+			}
+		</script>-->
+		<script type="text/javascript">
+			$(document).ready(function() {
+    	    	//Calculate the height of <header>
+    	    	//Use outerHeight() instead of height() if have padding
+    	    	var aboveHeight = $('.header').outerHeight();
+				//when scroll
+    	    	$(window).scroll(function(){
+		        	//if scrolled down more than the header’s height
+    	            if ($(window).scrollTop() > aboveHeight){
+		        		// if yes, add “fixed” class to the <nav>
+		        		// add padding top to the #content 
+		        		// (value is same as the height of the nav)
+    	            	$('nav').addClass('fixed').css('top','0').next()
+    	            	.css('padding-top','60px');
+    	            	document.getElementById('logo').style.display = 'inline';
+    	            } else {
+		        		// when scroll up or less than aboveHeight,
+    	            	// remove the “fixed” class, and the padding-top
+    	            	$('nav').removeClass('fixed').next()
+    	            	.css('padding-top','0');
+    	            	document.getElementById('logo').style.display = 'none';
+    	            }
+    	    	});
+			});
+		</script>
+		<!-- start-smoth-scrolling-->
+		 <!-- Custom Theme files -->
+		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+		<link href="css/responsive.css" rel='stylesheet' type='text/css' />
+		<link href="css/espanol.css" rel="stylesheet" type="text/css">
+        <link href="css/english.css" rel="alternate stylesheet" type="text/css" title="alternate">
+
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!--font-Awesome-->
+   		<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+   		<!--font-Awesome-->
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,200,700,800,900' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+	</head>
+	<body>
+		<div class="fullscreen background" id="home">
+			<div class="header">
+				<img src="./images/Logo text_ES.jpg"/>
+			</div>
+			<nav class="top-nav">
+				<ul>
+					<li class="page-scroll"><a href="#home" class="scroll">
+						<span class="nav-st"><img id="logo" src="images/logoq.png" alt="Q"></span>
+					</a></li>
+					<li class="page-scroll"><a href="#about" class="scroll">
+						<span class="nav-st">¿Qué Hacemos?</span><span class="nav-mob"><img src="images/icon-about.png" alt=""/></span>
+						</a></li>
+					<li class="page-scroll"><a href="#agenda" class="scroll">
+						<span class="nav-st">Agenda</span><span class="nav-mob"><img src="images/icon-agenda.png" alt=""/></span>
+					</a></li>
+					<li class="page-scroll"><a href="#team" class="scroll">
+						<span class="nav-st">¿Quiénes Somos?</span><span class="nav-mob"><img src="images/icon-team.png" alt=""/></span>
+					</a></li>
+					<li class="page-scroll"><a href="#contact" class="scroll">
+						<span class="nav-st">Contacto</span><span class="nav-mob"><img src="images/icon-contact.png" alt=""/></span>
+					</a></li>
+					<li><a href="index.html">CA</a> / <span class="idioma-no">ES</span></li>
+				</ul>
+			<!--<div><br />&nbsp;<br /></div>-->
+			
+		</div><!--End fullscreen-->
+
+	
+
+		 <!--start-testmonials-->
+        <div class="testmonials" id="about">
+        	<div class="container">
+         		<div class="sectitle">
+					<h3>¿Qué hacemos?<label style="background: white;"> </label></h3>
+				</div>
+	         	<div class="col-md-7 client-says">
+		         	<h3><a data-toggle="modal" href="#modal-Quadrivium"><span class="strong-quadrivium">Quadrívium</span></a> ofrece conferencias, charlas divulgativas y talleres relacionados con la <span class="strong-quadrivium">Física</span> y las <span class="strong-quadrivium">Matemáticas</span> a esculas, institutos, bibliotecas, ateneos y otros centros culturales del área metropolitana de Barcelona.<br>
+		         	Como creemos que todos podemos disfrutar y beneficiarnos de una mejor educación científica, desde <a data-toggle="modal" href="#modal-Quadrivium"><span class="strong-quadrivium">Quadrívium</span></a> dirigimos nuestros esfuerzos a dos públicos diferenciados:<br><br>
+
+						<ul>	
+							<li> <h2>Estudiantes de ESO y Bachillerato:</h2>
+								-Charlas adaptadas al temario de <span class="strong-quadrivium">Física</span> y <span class="strong-quadrivium">Matemáticas</span> de 1ro y 2do de Bachillerato.<br>
+								-Algunos de los bloques de <span class="strong-quadrivium">Ciéncias para el mundo contemporánio</span>.<br>
+								-Una primera aproximación a la ciéncia (<span class="strong-quadrivium">ESO</span>).
+							</li><br>
+							<li> <h2>Divulgación para todos:</h2>
+								-Temea de <span class="strong-quadrivium">actualidad</span>: El bosón de Higgs, Superconductividad, Física Cuántica, …<br>
+								-<span class="strong-quadrivium">Curiosidades</span>: La Física del cinema, Caos y fractales, el origen del universo, …
+							</li>
+						</ul>					
+					</h3>
+	         	</div>
+	         	<!--Modal Quadrivium-->
+						<div class="modal fade" id="modal-Quadrivium" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			                <div class="modal-dialog">
+			                      <div class="modal-content">
+			                        <div class="modal-header">
+			                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			                              <h3 class="modal-title text-center">QUADRÍVIUM</h3>
+			                        </div>
+			                        <div class="modal-body" style="text-align: justify;">
+			                            <p style="text-align: justify;">Durante la edad media, la educación superior se va contruir alrededor de las llamadas siete artes liberales:<br>
+			                            	<ul>
+			                            		<li> El Trívium, que comprendia la gramática, la dialéctica y la retórica, servia per cultivar la eloqüència.</li>
+			                            		<li> El Quadrívium desarrollava el pensamiento científico y estaba formado por las  disciplinas relacionadas con las matemáticas siguiendo la división pitagórica: aritmética, geometría, astronomía y música.</li>
+			                            	</ul>
+			                            	<br>
+			                            	Hoy en día, en pleno siglo XXI, Quadrívium es para nosotros una manera diferente de acercar a todos las ciencias puras, perque queremos compartir eso que nos apasiona y porque creemos que una educación científica es más necesaria que nunca en un mundo cada vez más dominado por la tecnología. <br><br>
+			                            	Quadrívium nace con el objetivo de divulgar la ciencia combinando rigor y pasioneix, con la ambición de transmitir de forma amena y divertida desde el campo más consolidado hasta los descubrimientos más recientes y la investigacion más vanguardista.
+			                         	</p>
+			                        </div>
+			                      </div><!-- /.modal-content -->
+			                </div><!-- /.modal-dialog -->
+		              	</div><!-- /.modal Quadrivium -->	ç
+
+	         	<div class="client-pic col-md-4 col-md-offset-1 hide-responsibe">
+	         		<img src="images/quefem1.png" title="Quadrívium" />
+	         	</div><br>
+	         	<div class="client-pic col-md-4 col-md-offset-1 hide-responsibe">
+	         		<img src="images/quefem2.png" title="Quadrívium" />
+	         	</div>	         
+				<div class="clearfix"> </div>
+
+				<div id="port" class="portfolio portfolio-box">
+					<div class="sectitle">
+						<h3>¿Qué ofrecemos?<label style="background: white;"> </label></h3>
+					</div>
+					<div class="col-md-12">
+						<h3><a data-toggle="modal" href="#modal-Quadrivium"><span class="strong-quadrivium">Quadrívium</span></a> prepara sus charlas teniendo en cuenta tanto los temarios de las asignaturas de bachillerato como los intereses científicos de su público.<br>
+						A continuación os presentamos las charlas que ofrecemos y en caso de que no se adapten a los que estáis buscando os proponemos que nos reten a preparar material para una charla especifica.<br><br>
+						Podéis descargar un listado con los precios <a href="files/Tarifes Quadrívium_ESP.pdf"><em>aquí</em></a> y para más información no dudéis en poneros en <a href="#contact" class="scroll"><em>contacto</em></a>.<br><br></h3>
+					</div>
+		        	<div class="portfolio-main">
+			        	<!-- start-portfolio-script-->
+							<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+							<script type="text/javascript">
+								$(function () {
+									var filterList = {
+										init: function () {
+										
+											// MixItUp plugin
+											// http://mixitup.io
+											$('#portfoliolist').mixitup({
+												targetSelector: '.portfolio',
+												filterSelector: '.filter',
+												effects: ['fade'],
+												easing: 'snap',
+												// call the hover effect
+												onMixEnd: filterList.hoverEffect()
+											});				
+										
+										},
+										hoverEffect: function () {
+											// Simple parallax effect
+											$('#portfoliolist .portfolio').hover(
+												function () {
+													$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+													$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+												},
+												function () {
+													$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+													$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+												}		
+											);				
+										
+										}
+							
+									};
+									// Run the show!
+									filterList.init();
+								});	
+							</script>
+							<!--//End-portfolio-script-->
+							<ul id="filters" class="clearfix">
+								<li><span class="filter active" data-filter="phys math altres">TODO</span> /</li>
+								<li><span class="filter" data-filter="phys">FÍSICA</span> /</li>
+								<li><span class="filter" data-filter="math">MATEMÁTICAS</span></li> <!--/</li>
+								<li><span class="filter" data-filter="altres">ALTRES</span></li>-->
+							</ul>
+							<div id="portfoliolist">
+							<div class="portfolio phys mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">		
+									<a data-toggle="modal"  href="#modal-higgs" class="b-link-stripe b-animate-go  thickbox">
+								     <img class="p-img" src="images/higgs.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+								  	</div></a>
+				                </div>
+				                <div class="port-info">
+				                	<h4><a>Higgs</a></h4>
+				                	<span>Física</span>
+				                </div>
+							</div>		
+							<!--Modal Higgs-->
+							<div class="modal fade" id="modal-higgs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		             		   <div class="modal-dialog">
+				                      <div class="modal-content">
+				                        <div class="modal-header">
+				                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				                              <h3 class="modal-title">Higgs: la (maldita) partícula de Dios</h3>
+				                              <h4>TEMA: <em>Física</em><br>NIVEL: <em>1ro y 2do de Bachillerato</em></h4>     
+				                        </div>
+				                        <div class="modal-body" style="text-align: justify;">
+				                            <p style="text-align: justify;">
+				                           	Con el pretexto del “descubrimiento” del bosón de Higgs, motivo del premio Nobel de física de este año, os proponemos un viaje por la historia de la ciencia: desde las preguntas fundamentales que se hacían los primeros filósofos griegos, hasta llegar a los colosales aceleradores de partículas y a las fronteras de la física moderna.
+				                            <br>
+				                            ¿Para qué sirve el Higgs? O dicho de otra manera, ¿para qué sirve la investigación fundamental? En esta charla intentaremos dar respuesta a estas y otras preguntas.
+				                            <br><br>
+				                            ÍNDICE:
+				                            <ul>	
+												<li>Breve historia de la ciencia</li>
+												<li>¿Qué es el Modelo estándar?</li>
+												<li>¡Todo está hecho de campos!</li>
+												<li>Simetrías y su rotura: ¿Qué hacemos con la masa?</li>
+												<li>El CERN</li>
+												<li>El glorioso pico</li>
+												<li>¿Y todo esto para qué sirve?</li>
+											</ul>	
+				                        	</p>
+				                        </div>
+				                        <div class="modal-footer"><p>Precio de la charla: 110€.</p></div>
+				                      </div><!-- /.modal-content -->
+				                </div><!-- /.modal-dialog -->
+		             		 </div><!-- /.modal Higgs -->		
+
+							<div class="portfolio phys mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">		
+									<a data-toggle="modal"  href="#modal-relativitatE" class="b-link-stripe b-animate-go  thickbox">
+								     <img class="p-img" src="images/SR.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+								  	</div></a>
+				                </div>
+				                 <div class="port-info">
+				                	<h4><a>Relatividad Especial</a></h4>
+				                	<span>Física</span>
+				                </div>
+							</div>	
+							<!--Modal RelativitatE-->
+							<div class="modal fade" id="modal-relativitatE" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				                <div class="modal-dialog">
+				                      <div class="modal-content">
+				                        <div class="modal-header">
+				                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				                              <h3 class="modal-title">Relatividad Especial</h3>
+				                              <h4>TEMA: <em>Física</em><br>NIVEL: <em>1ro y 2do de Bachillerato</em></h4>
+				                        </div>
+				                        <div class="modal-body" style="text-align: justify;">
+				                            <p style="text-align: justify;">La Teoría de la Relatividad Especial de Einstein es una de las teorías más bellas de la historia de la ciencia; a pesar de su sencillez -consta de dos simples postulados-, sus implicaciones cambiaron por completo nuestra concepción de espacio y tiempo. A lo largo de esta charla presentaremos paso a paso la teoría de una manera clara y comprensible, utilizando experimentos mentales (o "gedankenexperiments", como Einstein los llamaba) y sin apenas matemáticas. Entenderemos, entre otras cosas, por qué es posible viajar al futuro, por qué nada puede superar la velocidad de la luz y qué significa la famosa ecuación E = mc².
+				                        	 <br><br>
+				                            ÍNDICE:
+				                            <ul>	
+												<li>Introducción: un nuevo concepto de tiempo</li>
+												<li>Los dos postulados de la Relatividad Especial</li>
+												<li>El problema de la sincronización</li>
+												<li>Dilatación temporal y contracción de las longitudes</li>
+												<li>Viajes al futuro: la paradoja de los gemelos</li>
+												<li>Más allá de la Relatividad Especial: la Relatividad General</li>
+												<li>La RE en nuestra vida cotidiana</li>
+											</ul>	
+											</p>
+				                        </div>
+				                        <div class="modal-footer"><p>Precio de la charla: 110€.</p></div>
+				                      </div><!-- /.modal-content -->
+				                </div><!-- /.modal-dialog -->
+			              	</div><!-- /.modal RelativitatE -->	
+
+			              	<div class="portfolio math mix_all" data-cat="math" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">		
+									<a data-toggle="modal" href="#modal-geometria" class="b-link-stripe b-animate-go  thickbox">
+								     <img class="p-img" src="images/topology.png" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+								  	</div></a>
+				                </div>
+				                 <div class="port-info">
+				                	<h4><a>Geometría Moderna</a></h4>
+				                	<span>Matemáticas</span>
+				                </div>
+							</div>	
+							<!--Modal geomtria-->
+							<div class="modal fade" id="modal-geometria" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				                <div class="modal-dialog">
+				                      <div class="modal-content">
+				                        <div class="modal-header">
+				                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				                              <h3 class="modal-title">GEOMETRÍA Y TOPOLOGÍA</h3>
+				                              <h4>TEMA: <em>Matemáticas</em><br>NIVEL: <em>1ro y 2do de Bachillerato</em></h4>
+				                        </div>
+				                        <div class="modal-body" style="text-align: justify;">
+				                            <p style="text-align: justify;">La geometría es, posiblemente, el área más antigua de las matemáticas. Pero desde que los griegos la estudiaran muchas cosas han cambiado. Hoy en día, la geometría está fusionada con casi todas las ramas de las matemáticas pero aquí os presentaremos un tipo de geometría que a diferencia de las otras solo se interesa por la forma de las cosas y no de su medida: La topología<br>
+				                            En esta charla entenderemos qué es la topología y jugaremos con ella hasta llegar a comprender alguno de los rasgos básicos que la diferencian del resto de geometrías.<br>
+				                            Además os ofreceremos un taller dónde los alumnos aprenderán a jugar sobre cómo clasificar objetos según sus características topológicas.
+				                             <br><br>
+				                            ÍNDICE:
+				                            <ul>	
+												<li>Breve historia de la geometría y la topología</li>
+												<li>El problema de pintar mapas</li>
+												<li>Como saber si 2 objetos son o no iguales matemáticamente hablando</li>
+												<li>Propiedades topológicas</li>
+												<li>Taller topológico, ¡deformaciones permitidas!</li>
+												<li>Aplicaciones en nuestra vida cotidiana</li>
+											</ul>	
+				                            </p>
+				                        </div>
+				                        <div class="modal-footer"><p>Precio de la charla: 110€.</p></div>
+				                      </div><!-- /.modal-content -->
+				                </div><!-- /.modal-dialog -->
+		         		    </div><!-- /.modal geometria -->
+
+							<div class="portfolio math mix_all" data-cat="math" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">		
+									<a data-toggle="modal"  href="#modal-caos" class="b-link-stripe b-animate-go  thickbox">
+								     <img class="p-img" src="images/caos-fractals.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+								  	</div></a>
+				                </div>
+				                 <div class="port-info">
+				                	<h4><a> Caos y Fractales</a></h4>
+				                	<span>Matemáticas</span>
+				                </div>
+							</div>	
+							<!--Modal Caos-->
+							<div class="modal fade" id="modal-caos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				                <div class="modal-dialog">
+				                      <div class="modal-content">
+				                        <div class="modal-header">
+				                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				                              <h3 class="modal-title">CAOS Y FRACTALES</h3>
+				                              <h4>TEMA: <em>Matemáticas</em><br>NIVEL: <em>1ro t 2do de Bachillerato</em></h4>  
+				                        </div>
+				                        <div class="modal-body" style="text-align: justify;">
+				                            <p style="text-align: justify;"> Con lo aprendido en 1º y 2º de Bachillerato seremos capaces de adentrarnos en uno de los temas más vivos de las matemáticas actuales: Los sistemas dinámicos caóticos y la geometría fractal. <br> 
+				                            El principal objetivo de la charla es entender la definición de caos y saber detectarlo en un sistema dinámico básico como alguno de los aprendidos en clase. Además, el mismo concepto de sistema dinámico nos llevará a la aparición de fractales y estudiaremos algún sistema simple que nos lleve a los fractales más conocidos. 
+				                            <br><br>
+				                            ÍNDICE:
+				                            <ul>
+				                            	<li>Definición de sistema dinámico y el primer ejemplo</li>
+				                            	<li>Un poco de historia: El problema de los tres cuerpos</li>
+				                            	<li>El mapa logístico, efecto mariposa y los atractores extraños</li>
+				                            	<li>Dibujando atractores – Fractales</li>
+				                            	<li>Definición de fractal</li>
+				                            	<li>Un modelo de fractal para el contorno de las costas</li>
+				                            	<li>Randomwalk y el precio del petróleo</li>
+				                            </ul>
+				                            </p>
+				                        </div>
+				                        <div class="modal-footer"><p>Precio de la charla: 110€.</p></div>
+				                      </div><!-- /.modal-content -->
+				                </div><!-- /.modal-dialog -->
+		         		    </div><!-- /.modal Caos -->	
+							<div class="portfolio phys mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">		
+									<a data-toggle="modal"  href="#modal-superconductivitat" class="b-link-stripe b-animate-go  thickbox">
+								     <img class="p-img" src="images/p3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+								  	</div></a>
+				                </div>
+				                <div class="port-info">
+				                	<h4><a>Superconductividad</a></h4>
+				                	<span>Física</span>
+				                </div>
+							</div>
+							<!--Modal superconductivitat-->
+							<div class="modal fade" id="modal-superconductivitat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				                <div class="modal-dialog">
+				                      <div class="modal-content">
+				                        <div class="modal-header">
+				                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				                              <h3 class="modal-title">Magnetismo y Superconductividad</h3>
+				                              <h4>TEMA: <em>Física. Ciencias para el Mundo contemporáneo</em><br>NIVEL: <em>ESO, 1ro y 2do de Bachillerato</em></h4>
+				                        </div>
+				                        <div class="modal-body" style="text-align: justify;">
+				                            <p style="text-align: justify;">La superconductividad fue descubierta en 1911 por Heike Kamerlingh Onnes. A pesar de que hoy en día existen diversos ingenios basados en los superconductores, no podemos decir que sea un fenómeno plenamente comprendido. <br>
+				                            Introduciremos este apasionante tema utilizando diversos experimentos. La comprensión  conjunta y gradual de cada una de las demostraciones experimentales que haremos, nos permitirá hacernos una idea intuitiva de este fenómeno tan espectacular y a la vez complejo y todo esto son utilizar una sola ecuación. 
+				                             <br><br>
+				                            ÍNDICE:
+				                            <ul>	
+												<li>Ferromagnetos y campos magnéticos</li>
+												<li>Ferrofluidos</li>
+												<li>Cargas eléctricas en movimiento que crean campos magnéticos</li>
+												<li>Campos magnéticos que mueven cargas eléctricas</li>
+												<li>Levitación Diamagnética</li>
+												<li>Levitación Superdiamagnética (Efecto Meissner)</li>
+											</ul>
+											</p>
+				                        </div>
+				                        <div class="modal-footer"><p>Precio de la charla: 180€.</p></div>
+				                      </div><!-- /.modal-content -->
+				                </div><!-- /.modal-dialog -->
+		         		    </div><!-- /.modal superconductivitat -->	
+							<div class="portfolio phys mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">		
+									<a data-toggle="modal"  href="#modal-quantica" class="b-link-stripe b-animate-go  thickbox">
+								     <img class="p-img" src="images/quantum.png" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+								  	</div></a>
+				                </div>
+				                 <div class="port-info">
+				                	<h4><a> Física Cuántica</a></h4>
+				                	<span>Física</span>
+				                </div>
+							</div>	
+							<!--Modal quantica-->
+							<div class="modal fade" id="modal-quantica" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				                <div class="modal-dialog">
+				                      <div class="modal-content">
+				                        <div class="modal-header">
+				                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				                              <h3 class="modal-title">FÍSICA CUÁNTICA</h3>
+				                              <h4>TEMA: <em>Física <br>NIVEL: <em>1ro y 2do de Bachillerato</em></h4>
+				                        </div>
+				                        <div class="modal-body" style="text-align: justify;">
+				                            <p style="text-align: justify;">La física cuántica es la parte de la física que se encarga de los fenómenos físicos a escalas atómicas y subatómicas.<br>
+				                            Gracias a ella ha sido posible el desarrollo de mucha de la tecnología de hoy en día. Fue desarrollada durante el coimienzo del siglo XX y entre los científicos que han contribuido en su creación se encuentran Einstein, Planck, Schrödinger o Heisenberg.<br>
+				                            La física cuántica acaba por completo con muchos de los elementos de la física clásica como la trayectoría y el determinismo y convive con la incertidumbre, la probabilidad y superposición de estados.<br>
+				                            Aquí presentamos un sólida introducción a muchos de sus aspectos intentado evitar gran parte de su formalismo matemático.
+				                            <br><br>
+				                            ÍNDICE:
+				                            <ul>	
+												<li>Planck y el cuerpo negro</li>
+												<li>El efecto fotoeléctrico de Einstein - Quantas</li>
+												<li>Dualidad onda-partícula</li>
+												<li>El experimento de la doble rendija</li>
+												<li>El gato de Schrödinger</li>
+												<li>El spin</li>
+												<li>El efecto tunel. Entre la realidad y la ficción</li>
+												<li>Física cuántica en la vida cotidiana</li>
+											</ul>	
+				                            </p>
+				                        </div>
+				                        <div class="modal-footer"><p>Precio de la charla: 110€.</p></div>
+				                      </div><!-- /.modal-content -->
+				                </div><!-- /.modal-dialog -->
+		         		    </div><!-- /.modal quantica -->	
+		         		    
+							<div class="portfolio phys mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">		
+									<a data-toggle="modal" href="#modal-bigbang" class="b-link-stripe b-animate-go  thickbox">
+								     <img class="p-img" src="images/bigbang.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left  b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+								  	</div></a>
+				                </div>
+				                 <div class="port-info">
+				                	<h4><a>Big Bang: El Origen del Universo</a></h4>
+				                	<span>Física</span>
+				                </div>
+							</div>																		
+		         		    <!--Modal Big bang-->
+							<div class="modal fade" id="modal-bigbang" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				                <div class="modal-dialog">
+				                      <div class="modal-content">
+				                        <div class="modal-header">
+				                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				                              <h3 class="modal-title">BIG BANG: EL ORIGEN DEL UNIVERSO</h3>
+				                              <h4>TEMA: <em>Física. Ciencias para el mundo contemporáneo</em><br>NIVEL: <em>1ro de Bachillerato</em></h4>
+				                        </div>
+				                        <div class="modal-body" style="text-align: justify;">
+				                            <p style="text-align: justify;">Nuestro universo, junto con su enorme belleza y complejidad, ha supuesto desde tiempos inmemoriales un misterio fundamental para el hombre. En esta charla queremos repasar algunos de los momentos más importantes de la historia del descubrimiento del universo, desde las primeras concepciones puramente filosóficas hasta la moderna teoría del Big Bang, el modelo inflacionario i la formación estelar.
+				                             <br><br>
+				                            ÍNDICE:
+				                            <ul>	
+												<li>Las primeras cosmogonías</li>
+												<li>Aprendidendo a observar: de Aristóteles a Galileo</li>
+												<li>El nuevo paradigma de la Relatividad General</li>
+												<li>El efecto Doppler y la ley de Hubble</li>
+												<li>La teoría del Big Bang</li>
+												<li>Pequeña historia de nuestro universo</li>
+											</ul>	
+				                            </p>
+				                        </div>
+				                        <div class="modal-footer"><p>Precio de la charla: 110€.</p></div>
+				                      </div><!-- /.modal-content -->
+				                </div><!-- /.modal-dialog -->
+		         		    </div><!-- /.modal geometria -->	
+
+		         		    <div class="portfolio phys mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">		
+									<a data-toggle="modal"  href="#modal-cinema1" class="b-link-stripe b-animate-go  thickbox">
+								     <img class="p-img" src="images/superman.png" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+								  	</div></a>
+				                </div>
+				                 <div class="port-info">
+				                	<h4><a>Física en el Cine</a></h4>
+				                	<span>Física</span>
+				                </div>
+							</div>		
+							<!--Modal Cinema1-->
+							<div class="modal fade" id="modal-cinema1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				                <div class="modal-dialog">
+				                      <div class="modal-content">
+				                        <div class="modal-header">
+				                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				                            <h3 class="modal-title">LA FÍSICA EN EL CINE</h3>
+				                            <h4>TEMA: <em>Física</em><br>NIVEL: <em>1ro y 2do de Bachillerato</em></h4>                      
+				                        </div>
+				                        
+				                        <div class="modal-body" style="text-align: justify;">
+				                            <p style="text-align: justify;">En esta charla os proponemos ver la física que aprendemos en bachillerato aplicada al análisis de películas clásicas de superhéroes como Superman o Spiderman. Todos suponemos que los superhéroes no pueden existir pero si no planteamos la pregunta de otra manera: Supongamos que pueden existir los superhéroes. Entonces: ¿Qué condiciones físicas deberíamos imponer para que lo aquello que hacen sea plausible?
+				                            <br>
+				                           Esta pregunta nos permitirá ir más allá de la suposición de que no existen i, basándonos en algunas escenas de películas, intentaremos hacer un modelo físico que no permita probar o rechazar su existencia aunque esta vez con razones científicas.
+				                            <br><br>
+				                            ÍNDICE:
+				                            <ul>	
+												<li>Introducción a los modelos físicos</li>
+												<li>Dinámica de choques: Leyes de conservación </li>
+												<li>Cinemática</li>
+												<li>Energías</li>
+											</ul>
+											</p>
+				                        </div>
+				                        <div class="modal-footer"><p>Precio de la charla: 110€.</p></div>
+				                      </div><!-- /.modal-content -->
+				                </div><!-- /.modal-dialog -->
+		         		    </div><!-- /.modal Cinema1 -->
+
+		         		   <div class="portfolio phys math mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">		
+									<a data-toggle="modal"  href="#modal-oferim" class="b-link-stripe b-animate-go  thickbox">
+								     <img class="p-img" src="images/oferta.png" /><!--<div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+								  	</div>--></a>
+				                </div>
+				                 <div class="port-info">
+				                	<h4><a>Reta a Quadrivium</a></h4>
+				                	<span>Elige tu</span>
+				                </div>
+							</div>		
+							<!--Modal oferim-->
+							<div class="modal fade" id="modal-oferim" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				                <div class="modal-dialog">
+				                      <div class="modal-content">
+				                        <div class="modal-header">
+				                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				                            <h3 class="modal-title">RETA A QUADRIVIUM</h3>                    
+				                        </div>
+				                        
+				                        <div class="modal-body" style="text-align: justify;">
+				                            <p style="text-align: justify;">En quadrivium creemos que cualquier tema, dentro de nuestras especialidades, puede ser un buen tema sobre el cual divulgar. Por lo tanto, si tiénes interés de proponernos alguno puedes informarte sobre nuestra formación en la seccion "¿Quiénes Somos?" y proponernos una charla.<br>
+				                            Nosotros nos pondremos en contacto contigo para hablar sobre restricciones de la charla como la duración o el grado de especialización requerido, etc. <br>
+				                            El precio dependerá del tipo de charla (teórica o experimental), la duración y el número de divulgadores que sean necesarios.
+											</p>
+				                        </div>
+				                        <div class="modal-footer"><p></p></div>
+				                      </div><!-- /.modal-content -->
+				                </div><!-- /.modal-dialog -->
+		         		    </div><!-- /.modal oferim -->
+						</div>
+					</div>
+				</div>
+				
+
+		    </div> <!--// End-container -->
+
+        </div>  <!--//End-testmonials-->
+         
+
+			<div class="events" id="agenda">
+			<div class="container">
+				<div class="sectitle">
+					<h3>Agenda<label style="background: black;"> </label></h3>
+				</div>
+			    <ul class="prox-events">
+			      <li>TÍTULO</li><li class="data-title-list">FECHA</li>
+			    </ul>
+
+			    <!-- Item -->
+			    <ul class="item-prox-events topline" >
+			        <li><h4>Semana de la Ciencia</h4></li>
+			        <li>17 Nov - 23 Nov 2014</li>
+			        <li class="link-info-event">
+			        	<a data-toggle="modal" href="#modal-1">
+			        		<span class="info-l-st"> Más Información</span>
+			        		<span class="info-l-mob"><img src="images/button-next.png" width="20" height="20"  alt=""/></span>
+			        	</a>
+			        </li>
+			    </ul>
+				 <!-- Modal -->
+	            <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	                <div class="modal-dialog">
+	                      <div class="modal-content">
+	                        <div class="modal-header">
+	                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	                              <h3 class="modal-title">SEMANA DE LA CIÉNCIA 2014- CASTELLDEFES</h3>
+			                      <h4>TEMA: <em>Física</em><br>CHARLA ABIERTA A TODO EL PUBLICO.
+	                        </div>
+	                        <div class="modal-body" style="text-align: justify;">
+	                            <p style="text-align: justify;"> En el marco de la semana de la ciencia expondremos temas sobre la física que se encuentra en la vanguardia de la investigación como son la superconductividad o la relatividad general de Einstein. <br>
+	                            Además de explicar de forma clara los conceptos básicos os treremos experimentos para tocar y comprender mejor lo que se ha explicado.
+	                            <br><br>
+	                            Como llegar: <a href="http://www.bibliotecacentral.org/contacte/" target="blank">Biblioteca de Castelldefels</a>
+	                            </p>
+	                        </div>
+	                      </div><!-- /.modal-content -->
+	                </div><!-- /.modal-dialog -->
+	              </div><!-- /.modal -->
+	            <!-- End Item -->
+            </div> <!--end container-->
+		</div>
+
+		<div class="historial">
+			<div class="container">
+			  		<div class="sectitle">
+						<h3>Presentaciones Anteriores<label style="background: white;"> </label></h3>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="cont-people-say">
+							    <div><img src="images/bibliotecacastelldefels.jpg"  alt=""/></div>
+							   	<h4><a data-toggle="modal"  href="#modal-caos">Caos y Fractales</a></h4>
+							    <h5>Biblioteca de Castelldefels</h5>
+							    <hr>
+							   	<p>Los sitemas dinámicos caóticos y la geometría fractal. El principal objetivo de esta charla es entender la definición de caos y saber detectarlo en un sistema dinámico básico.<br><br>
+						   	</div>
+						 </div>
+						<div class="col-md-4">
+							<div class="cont-people-say">
+							    <div><img src="images/bibliotecacastelldefels.jpg" alt=""/></div>
+						        <h4><a data-toggle="modal" href="#modal-cinema1">Física en el Cine</a></h4>
+						        <h5>Biblioteca de Castelldefels</h5>
+						    	<hr>
+						    	<p>En esta charla los proponemos ver la física que aprendemos en el bachillerato aplicada al análisis de peliculas clásicas de superheroes como superman o spiderman.<br><br>
+					   		</div>
+					 	</div>
+						<div class="col-md-4">
+							<div class="cont-people-say">
+							    <div><img src="images/sagratcor.jpg" alt=""/></div>
+						        <h4><a data-toggle="modal" href="#modal-higgs">Higgs</a></h4>
+						        <h5>Colegi Sagrat Cor de Sarrià</h5>
+						        <hr>
+						 	    <p>Con el pretexto del “descubrimiento” del bosón de Higgs, motivo del premio Nobel de física de este año, os proponemos un viaje por la historia de la ciencia: desde las preguntas fundamentales que se hacían los primeros filósofos griegos, hasta llegar a los colosales aceleradores de partículas y a las fronteras de la física moderna. <br><br>
+					   		</div>
+					 	</div>
+						<div class="clearfix"> </div>
+						<div class="col-md-4">
+							<div class="cont-people-say">
+							    <div><img src="images/iesmediterranies.jpg" alt=""/></div>
+							   	<h4><a data-toggle="modal" href="#modal-geometria">Geometría Moderna</a></h4>
+							    <h5>IES Mediterrania</h5>
+							    <hr>
+							   	<p>La geometría es, posiblemente, el área más antigua de las matemáticas. Pero desde que los griegos la estudiaran muchas cosas han cambiado. Hoy en día, la geometría está fusionada con casi todas las ramas de las matemáticas pero aquí os presentaremos un tipo de geometría que a diferencia de las otras solo se interesa por la forma de las cosas y no de su medida: La topología.<br><br>
+					   		</div>
+					 	</div>
+						<div class="col-md-4">
+							<div class="cont-people-say">
+							    <div><img src="images/semanaciencia2013.jpg" alt=""/></div>
+						        <h4><a data-toggle="modal" href="#modal-higgs">Higgs</a></h4>
+						        <h5>Biblioteca de Castelldefels</h5>
+						        <hr>
+						 	    <p>Con el pretexto del “descubrimiento” del bosón de Higgs, motivo del premio Nobel de física de este año, os proponemos un viaje por la historia de la ciencia: desde las preguntas fundamentales que se hacían los primeros filósofos griegos, hasta llegar a los colosales aceleradores de partículas y a las fronteras de la física moderna. <br><br>
+					   		</div>
+					 	</div>
+					</div>
+				<div class="clearfix"> </div>
+				<!--<div class="col-md-2 col-md-offset-5">
+				  	<a class="more-icon" href="#"><img src="images/moreicon.png" width="30" title="Més presentacions"></a>
+				</div>-->
+			</div> <!--end container-->
+		</div>
+
+
+
+
+		<!-- start-services -->
+	<!--	<div id="services" class="services">
+			<div class="container">
+				<h3>Services<label> </label></h3>
+			<!-- start-servicves-list >
+			<div class="services-list text-center">
+				<ul class="list-unstyled list-inline">
+					<li>
+						<a href="#"><span class="service-icon"> </span><label>Mobile</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon1"> </span><label>Design</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon2"> </span><label>Social</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon3"> </span><label>E-commerce</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon4"> </span><label>Database</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon5"> </span><label>Communications</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon6"> </span><label>Technology</label></a>
+					</li>
+				</ul>
+			</div>
+			<!--//End-servicves-list>
+			</div>
+		</div> -->
+		<!--//End-services-->
+
+
+		
+        
+		<!--start-team-->
+		<div id="team" class="team">
+			<div class="container">
+				<div class="sectitle">
+					<h3>¿Quiénes somos?<label style="background: black;"> </label></h3>
+				</div>
+				<div class="team-members text-center">
+					<div class="col-md-6 team-member">
+						<a class="member-pic" data-toggle="modal" href="#modal-gian"><img src="images/gian_team.jpg" title="Gian Arauz" /></a>
+						<h3><a>Gian Arauz</a></h3>
+						<p>Llicenciado en Física y  Máster en Biomedicina por la <em title="Universidad de Barcelona">UB</em>. En la actualidad, cursa estudios de doctorado en Física en el Departamento de Física Fundamental de la UB. "
+						Los científicos hemos de ser capaces de transmitrir a la sociedad nuestra pasión por la ciencia. La divulgación es la clave para conseguirlo"</p>
+					</div>
+					<!--Modal Gianluca-->
+					<div class="modal fade" id="modal-gian" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		                <div class="modal-dialog">
+		                      <div class="modal-content">
+		                        <div class="modal-header">
+		                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                              <h3 class="modal-title">Gian Arauz</h3>
+		                              <h4>Físico</h4>
+		                        </div>
+		                        <div class="modal-body" style="text-align: justify;">
+		                            <p style="text-align: justify;">Gian Arauz nació en Nápoles en 1985. Ya desde muy pequeño muestra un gran interés por la ciencias, especialmente por la Biología i la Física. En 2010 obtiene la Licenciatura de Física por la Universidad de Barcelona (UB). A partir de entonces comienza a trabajar como Profesor Asociado y Personal Docente Investigador en el Grupo de Magnetismo (GMAG) del Departamento de Física Fundamental de la UB, compaginando labores investigadoras y docentes. En 2013 obtiene el Máster en Biomedicina por la UB e inicia sus estudios de doctorado sobre las “Perspectivas de la Espectrometría Microondas como alternativa no invasiva i no ionizante en la monitorización del deterioro de stents vasculares”. Desde 2012 colabora activamente en diversas actividades de divulgación científica organizadas por la Facultad de Física, desembocando finalmente en Quadrívium.
+ 									<ul class="list-unstyled list-inline social-icons text-center">
+										<li><a target="blank" href="http://web.ffn.ub.es/node/2?id=garauz"><i class="fa fa-dribbble"> </i> </a></li>
+									</ul>
+		                            </p>
+		                        </div>
+		                      </div><!-- /.modal-content -->
+		                </div><!-- /.modal-dialog -->
+	              	</div><!-- /.modal Gianluca -->	
+					
+					<div class="col-md-6 team-member">
+						<a class="member-pic" data-toggle="modal" href="#modal-blaig"><img src="images/blaig_team2.jpg" title="Blai Garolera" /></a>
+						<h3><a>Blai Garolera</a></h3>
+						<p>Llicenciado en Física y Máster en Astrofísica, Física de Partículas y Cosmología por la <em title="Universidad de Barcelona">UB</em>. Actualmente, cursa estudios de doctorado en Teoría de Cuerdas. "Una mejor educación es el primer paso lógico hacia un mundo mejor."</p>
+					</div>
+
+					<!--Modal Garu-->
+					<div class="modal fade" id="modal-blaig" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		                <div class="modal-dialog">
+		                      <div class="modal-content">
+		                        <div class="modal-header">
+		                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                              <h3 class="modal-title">Blai Garolera</h3>
+		                              <h4>Físico</h4>
+		                        </div>
+		                        <div class="modal-body" style="text-align: justify;">
+		                            <p style="text-align: justify;"> Blai nació un martes 13 de mayo de 1986, cuando las nubes radioactivas provenientes de la catástrofe nuclear de Txernòbil aun sobrevolaban la ciudad condal i el mundo entero quedaba conmocionado por el poder destructivo de una ciencia que la mayoría de la gente no comprendía. Hijo de filólogos, quiso salir del fuego de las letras para caer en las brasas de las ciencias puras, licenciándose en Física en 2009 y cursando un máster de Física Teórica en 2010. Actualmente está acabando un doctorado en Teoría de Cuerdas.
+		                            <br><br>
+		                          	Desgraciadamente para él, siempre ha sufrido una predilección especial por la docencia y la divulgación. Dispone del Certificado de Aptitud Pedagógica (CAP) del Institut de Ciències de l’Educació i ha trabajado como profesor asociado en los departamentos de Astronomia i Meteorologa y de Física Fonamental de la Facultad de Física de la UB. A la vez, ha procurado compaginar los estudios de doctorado con actividades de divulgación como son los Encontres amb el Tercer Cicle, las Jornades d'Investigadors Predoctorals Interdisciplinàries y, comenzando ahora, Quadrívium.
+		                            <ul class="list-unstyled list-inline social-icons text-center">
+										<li><a target="blank" href="https://es-la.facebook.com/blai.huguet"><i class="fa fa-facebook"> </i></a></li>
+										<li><a target="blank" href="http://icc.ub.edu/index.php?m=people&c=people&op=frm_member&id=137"><i class="fa fa-dribbble"> </i> </a></li>
+									</ul>
+		                            </p>
+		                        </div>
+		                      </div><!-- /.modal-content -->
+		                </div><!-- /.modal-dialog -->
+	              	</div><!-- /.modal Garu -->
+
+					<div class="clearfix"> </div>
+
+					<div class="col-md-6 team-member">
+						<a class="member-pic" data-toggle="modal" href="#modal-blaip"><img src="images/blaip_team.jpg" title="Blai Pié" /></a>
+						<h3><a>Blai Pié</a></h3>
+						<p>Llicenciado en Física y Máster en Astrofísica, Física de Partículas y Cosmologia por la <em title="Universidad de Barcelona">UB</em>. Actualmente, cursa estudios de doctorado en Historia de la Física Cuántica. "El estudio del origen de las grandes citas de la ciencia nos ayuda a comprenderlas con mayor profundidad."</p>
+					</div>
+					<!--Modal Pié-->
+					<div class="modal fade" id="modal-blaip" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		                <div class="modal-dialog">
+		                      <div class="modal-content">
+		                        <div class="modal-header">
+		                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                              <h3 class="modal-title">Blai Pié</h3>
+		                              <h4>Físico</h4>
+		                        </div>
+		                        <div class="modal-body" style="text-align: justify;">
+		                            <p style="text-align: justify;">Nacido en un pueblo de montaña el verano de 1986, Blai se interesó desde muy pequeño por la naturaleza, y más adelante, por la tecnología y la ciencia en general. Persiguiendo esta curiosidad innata, se licenció en Física en 2009 y cursó un máster en Astrofísica, Física de Partículas y Cosmología en 2010. Posteriormente colaboró en proyectos de investigación del  <em title="Centre Europeu de Recerca Nuclear">CERN</em> antes de lanzarse a la realización de un doctorado en Historia de la Física.
+		                            <br><br>
+		                            Acérrimo consumidor de divulgación científica desde siempre, cuando ha tenido la oportunidad se ha pasado al otro bando i ha contribuido en varios proyectos divulgativos, como por ejemplo los <a href="http://www.ub.edu/fisica/encontres" target="_blank"><em>Encontres amb el Tercer Cicle</em></a>, el <em>Taller de Partícules</em>, o diversas entrevistas breves en la radio (RAC1).
+		                            <br><br>
+		                           Hoy deposita todos sus esfuerzos e ilusiones en Quadrívium, con la esperanza de poder dar a las nuevas generaciones una parte de lo que el mismo recibió de los grandes divulgadores como Carl Sagan, Gerard Durrel o "l'únic, l’inconfusible... en Beakman!”.
+		                            <ul class="list-unstyled list-inline social-icons text-center">
+										<li><a target="blank" href="https://www.facebook.com/drocera"><i class="fa fa-facebook"> </i></a></li>
+										<li><a target="blank" href="http://www.ub.edu/hcub/?page_id=196"><i class="fa fa-dribbble"> </i> </a></li>
+									</ul>
+									</p>
+		                        </div>
+		                      </div><!-- /.modal-content -->
+		                </div><!-- /.modal-dialog -->
+	              	</div><!-- /.modal Píe -->
+
+					<div class="col-md-6 team-member">
+						<a class="member-pic" data-toggle="modal" href="#modal-guille"><img src="images/guille.png" title="Guillermo García" /></a>
+						<h3><a>Guillermo García</a></h3>
+						<p>Graduado en Física por la UB. Actualmente, cursa un máster en Física Avanzada y estudios de doctorado en el campo de los Sistemas Complejos el Departamento de Física Funamental. "La divulgación es imprescindible para transmitir la visión del mundo que nos ha dado la ciencia".</p>
+					</div>
+					<!--Modal Guille-->
+					<div class="modal fade" id="modal-guille" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		                <div class="modal-dialog">
+		                      <div class="modal-content">
+		                        <div class="modal-header">
+		                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                              <h3 class="modal-title">Guillermo García</h3>
+		                              <h4>Físico</h4>
+		                        </div>
+		                        <div class="modal-body" style="text-align: justify;">
+		                            <p style="text-align: justify;">Guille nació en Barcelona en el año 1987. A pesar de que desde  pequeño mostró mucho interés por las matemáticas y la informática, sus inquietudes han pasado por los idiomas, la música y la medicina; finalmente descubrió la física gracias, en gran parte, a varias obras de divulgación. Actualmente, cursa el máster de Física Avanzada que ofrece la Universidad de Barcelona, donde también realiza sus estudios de doctorado en el campo de los Sistemas Complejos.</p>
+		                        </div>
+		                      </div><!-- /.modal-content -->
+		                </div><!-- /.modal-dialog -->
+	              	</div><!-- /.modal Guille -->	
+
+					<div class="clearfix"> </div>
+					
+					<div class="col-md-6 col-md-offset-3 team-member">
+						<a class="member-pic" data-toggle="modal" data-target="#modal-nahuel" href="#"><img src="images/nahuel_team.jpg" title="Nahuel Statuto" /></a>
+						<h3><a>Nahuel Statuto</a></h3>
+						<p>Llicenciado en Matemáticas y Máster en Física Teórica por la UB. Actualmente, cursa estudios de doctorado el Departamento de Física Funamental de la UB. "Tengo la ferviente creéncia de que sin la divulgación la ciencia pierde la mitad de su atractivo".</p>
+					</div>
+					<!--Modal Nahuel-->
+					<div class="modal fade" id="modal-nahuel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		                <div class="modal-dialog">
+		                      <div class="modal-content">
+		                        <div class="modal-header">
+		                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                              <h3 class="modal-title">Nahuel Statuto</h3>
+		                              <h4>Matemático</h4>
+		                        </div>
+		                        <div class="modal-body" style="text-align: justify;">
+		                            <p style="text-align: justify;"> Nahuel nació el 1 de junio de 1987 en Argentina. En 2002, con 15 años, llegó a Barcelona para comenzar una nueva vida. Un par de años después comenzó sus estudios en matemáticas con la duda de si debería de haber elegido física.<br>
+		                           	De todas formas siempre estaba intentando meter la física en su vida y cuando llegó la hora de escoger su futuro optó por hacer un máster en Física Teórica. Actualmente, ha acabado el máster y se encuentra a las puertas de comenzar una nueva etapa educativa en su vida: Doctorado en Física.
+		                           	<br><br> 
+
+		                           	En 2012 abrió una academia de ciencia en Castelldefels que desde entonces gestiona y en la que imparte clase a todo tipo de alumnos. Además, también en 2012, crea "<a target="blank" href="http://lavoz.cat/2013/04/amigos-de-la-ciencia-de-castelldefels-os-presentan-el-proyecto-gamma-%D0%B3/"><span>CienciaFels</span></a>", una asociación de divulgación científica con la que ha organizado diversos eventos y que ahora se sumerge de pleno en Quadrívium.
+		                            <br>
+		                            La divulgación siempre le ha apasionado, ya sea sobre matemáticas, física o sobre ciencia en general, aunque también cree que divulgar sobre alguna cosa que se aleja de sus conocimientos hace que sea muy difícil ofrecer divulgación de calidad.
+		                            <br><br>
+		                            <ul class="list-unstyled list-inline social-icons text-center">
+										<li><a target="blank" href="https://es-la.facebook.com/nahuel.statuto"><i class="fa fa-facebook"> </i></a></li>
+										<li><a target="blank" href="http://lavoz.cat/2013/01/jovenes-profesionales-2/"><i class="fa fa-dribbble"> </i> </a></li>
+									</ul>
+		                            </p>
+		                        </div>
+		                      </div><!-- /.modal-content -->
+		                </div><!-- /.modal-dialog -->
+	              	</div><!-- /.modal Nahuel -->
+
+					<div class="clearfix"> </div>
+					
+				</div>
+			</div>
+		</div>
+		<!--//End-team-->
+
+
+		<!--start-brand-carsuals-->
+		<!-- CAMBIAR ICONOS DE FLECHAS BLANCOS POR UNOS NEGROS!!!!!!
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		<div class="brand-carsuals">
+			<div class="container">
+				<div class="sectitle">
+					<h3>Clients<label style="background: black;"> </label></h3>
+				</div>
+				<ul id="flexiselDemo3">
+				    <li><img src="images/b-logo.png" /></li>
+				    <li><img src="images/b-logo.png" /></li>
+				    <li><img src="images/b-logo.png" /></li>
+				    <li><img src="images/b-logo.png" /></li>                                                 
+				</ul>   
+				<script type="text/javascript">
+					$(window).load(function() {
+					    $("#flexiselDemo3").flexisel({
+					        visibleItems: 5,
+					        animationSpeed: 1000,
+					        autoPlay: true,
+					        autoPlaySpeed: 3000,            
+					        pauseOnHover: true,
+					        enableResponsiveBreakpoints: true,
+					        responsiveBreakpoints: { 
+					            portrait: { 
+					                changePoint:480,
+					                visibleItems: 1
+					            }, 
+					            landscape: { 
+					                changePoint:640,
+					                visibleItems: 2
+					            },
+					            tablet: { 
+					                changePoint:768,
+					                visibleItems: 3
+					            }
+					        }
+					    });
+					    
+					});
+				</script>
+			</div> 
+		</div>-->
+		
+		<!--//End-brand-carsuals-->
+
+
+		<!--start-blog-->
+		<!--<div id="blog" class="blog">
+			<div class="container">
+				<h3>Blog<label> </label></h3>
+				<div class="blog-grids">
+					<div class="col-md-4 blog-grid-row frist-row">
+						<a class="post-pic" href="#"><img src="images/post-pic.jpg" title="pic-name" /></a>
+						<!--start-artical-info>
+						<div class="artical-info">
+							<div class="post-head">
+								<div class="post-head-left">
+									<h4><a href="#">This is blog post title</a></h4>
+									<p class="author">By <a href="#"> Amine Fessi</a></p>
+								</div>
+								<div class="post-head-right">
+									<span>17</span><label>April 2013</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
+							<div class="post-bottom">
+								<div class="post-bottom-left">
+									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
+								</div>
+								<div class="post-bottom-right">
+									<a class="artbtn" href="#">Read More</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--//End-artical-info>
+					</div>
+
+					<div class="col-md-4 artical-row2">
+						<!--start-artical-info>
+						<div class="artical-info">
+							<div class="post-head post-head1">
+								<div class="post-head-left">
+									<h4><a href="#">This is blog post title</a></h4>
+									<p class="author">By <a href="#"> Amine Fessi</a></p>
+								</div>
+								<div class="post-head-right post-head-right-C">
+									<span>20</span><label>April 2013</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
+							<div class="post-bottom">
+								<div class="post-bottom-left">
+									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
+								</div>
+								<div class="post-bottom-right">
+									<a class="artbtn artbtn1" href="#">Read More</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--//End-artical-info-->
+						<!--start-artical-info>
+						<div class="artical-info">
+							<div class="post-head post-head1">
+								<div class="post-head-left">
+									<h4><a href="#">This is blog post title</a></h4>
+									<p class="author">By <a href="#"> Amine Fessi</a></p>
+								</div>
+								<div class="post-head-right post-head-right-C">
+									<span>23</span><label>April 2013</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
+							<div class="post-bottom">
+								<div class="post-bottom-left">
+									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
+								</div>
+								<div class="post-bottom-right">
+									<a class="artbtn artbtn1" href="#">Read More</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--//End-artical-info>
+					</div>
+					<div class="col-md-4 artical-row2">
+						<!--start-artical-info>
+						<div class="artical-info">
+							<div class="post-head post-head1">
+								<div class="post-head-left">
+									<h4><a href="#">This is blog post title</a></h4>
+									<p class="author">By <a href="#"> Amine Fessi</a></p>
+								</div>
+								<div class="post-head-right post-head-right-C">
+									<span>28</span><label>April 2013</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
+							<div class="post-bottom">
+								<div class="post-bottom-left">
+									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
+								</div>
+								<div class="post-bottom-right">
+									<a class="artbtn artbtn1" href="#">Read More</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--//End-artical-info-->
+						<!--start-artical-info>
+						<div class="artical-info">
+							<div class="post-head post-head1">
+								<div class="post-head-left">
+									<h4><a href="#">This is blog post title</a></h4>
+									<p class="author">By <a href="#"> Amine Fessi</a></p>
+								</div>
+								<div class="post-head-right post-head-right-C">
+									<span>30</span><label>April 2013</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
+							<div class="post-bottom">
+								<div class="post-bottom-left">
+									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
+								</div>
+								<div class="post-bottom-right">
+									<a class="artbtn artbtn1" href="#">Read More</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--//End-artical-info>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!--//End-blog-->
+
+
+
+		<!--start-contact-->
+		<div id="contact" class="contact">
+			<div class="container">
+	         	<div class="sectitle">
+					<h3>Contacto<label style="background: white;"> </label></h3>
+				</div>
+				<div class="contact-grids">
+					<div class="col-md-6 contact-grid-left">
+						<form id="contact_form" method="post" action="contact_es.php">
+							<input type="text" name="name" value="Nombre" onfocus="if(this.value == 'Nom') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Nom';}">
+							<input type="email" name="email" value="Email" required="true" onfocus="if(this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}">
+							<input type="text" name="phone" value="Teléfono" onfocus="if(this.value == 'Telèfon') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Telèfon';}">
+							<input type="text" name="subject" value="Asunto" onfocus="if(this.value == 'Assumpte') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Assumpte';}">
+							<textarea id="form_textarea" name="msg" onfocus="if(document.getElementById('form_textarea').value == 'El teu missatge...') {$('#form_textarea').val('');}" onblur="if(this.value == '') this.value='El teu missatge...';">Tu mensaje...</textarea>
+							<!--<p class="conditions"> <span>*</span>scelerisque sit amet felis sit nunc.</p>-->
+							<span class="submit-btn"><input type="submit" name="submit" id="submit_btn" value="Enviar"></span>
+						</form>
+					</div>
+					<!---->
+					<div class="col-md-6 contact-grid-right hide-responsibe">
+						<div><p>La verdadera ciencia enseña, por encima de todo, a dudar y a ser ignorante. (Miguel de Unamuno)</p></div>
+						<!--<div><img title="Quadrivium" src="images/contacte.png"></div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3146627.8634626623!2d-96.59883788421166!3d39.629933318909686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1399976101005" > </iframe>-->
+						<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia.</p>-->
+						<!--<div class="col-md-4">
+							<h5>Phone</h5>
+							<span>[81]123456789</span>
+						</div>
+						<div class="col-md-4">
+							<h5>Address</h5>
+							<span>2014 Street,</span>
+							<span>San francisco California,</span>
+							<span>United States,</span>
+						</div>-->
+						<div class="col-md-12 text-center">
+							<h5>Email</h5>
+							<span><a href="mailto:a.quadrivium@gmail.com">a.quadrivium@gmail.com</a></span>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="cpr col-md-12">
+                    <p class="text-center">2014 - Web designed by <a data-toggle="modal" data-target="#modal-blaip" href="#" title="...">Blai Pié</a> &amp; <a data-toggle="modal" data-target="#modal-nahuel" href="#" title="...">Nahuel Statuto</a></p>
+            </div>  
+		</div>
+		<!--//End-contact-->
+		<!--//End-container-->
+		<script src="js/bootstrap-modal.js"></script>
+	</body>
+</html>
+

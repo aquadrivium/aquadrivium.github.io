@@ -1,0 +1,776 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Quadrivium :: Divulgació</title>
+
+		<link  sizes="144x144" href="apple-touch-icon-144-precomposed.png">
+    		<link rel="icon" type="image/png" href="images/favicon_q.png">
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		 <script src="js/jquery.min.js"></script>
+		 <!-- start-smoth-scrolling-->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+   				//Calculate the height of <header>
+    	    	//Use outerHeight() instead of height() if have padding
+        		var aboveHeight = $('header').outerHeight();
+				//when scroll
+	        	$(window).scroll(function(){
+		        	//if scrolled down more than the header’s height
+        	       	if ($(window).scrollTop() > aboveHeight){
+	        			// if yes, add “fixed” class to the <nav>
+	        			// add padding top to the #content 
+               			(value is same as the height of the nav)
+	               		$('nav').addClass('fixed').css('top','0').next()
+    	           		.css('padding-top','60px');
+        	       	} else {
+	        			// when scroll up or less than aboveHeight,
+               			remove the “fixed” class, and the padding-top
+               			$('nav').removeClass('fixed').next()
+               			.css('padding-top','0');
+	               	}
+    	    	});
+			});
+		</script>
+		<!-- start-smoth-scrolling-->
+		 <!-- Custom Theme files -->
+		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+		<link href="css/responsive.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!--font-Awesome-->
+   		<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+   		<!--font-Awesome-->
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,200,700,800,900' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+	</head>
+	<body>
+	<div class="fullscreen background" id="home">
+		<div class="container">
+			<img src="./images/logo-text-eslogan-transp.png" style="width: 70%;"/>
+		</div>
+		<nav class="top-nav">
+			<ul>
+				<li class="active"><a href="#" class="scroll">Home!</a></li>
+				<li class="page-scroll"><a href="#qui_som" class="scroll">Qui Som?</a></li>
+				<li class="page-scroll"><a href="#que_fem" class="scroll">Que Fem?</a></li>
+				<li class="page-scroll"><a href="#prox_events" class="scroll">Events</a></li>
+				<li class="page-scroll"><a href="#port" class="scroll">Protfolio</a></li>
+				<li class="page-scroll"><a href="#team" class="scroll">Team</a></li>
+				<li class="page-scroll"><a href="#contact" class="scroll">Contact</a></li>
+			</ul>
+		</nav>
+
+
+<!--start-container-->
+	 <!--	<div class="fullscreen background" background-color="#FFCC00" data-img-width="1600" data-img-height="1064">
+            	<img src="./images/logo-text-eslogan-transp.png" style="width: 70%;"/>
+            <!--<nav>
+				<ul class="nav"></ul>
+			</nav>--!>
+			<div id="home" class="header scroll">
+				<div class="container">
+					<!-- start-logo-->	
+					<!--<div class="logo">
+						<a href="#"><img src="images/logoq.png" style="width: 50px;" title="Quadrívium" /></a>
+					</div>-->
+					<!-- //End-logo-->
+					<!--start-top-nav-->
+					<!--<nav class="top-nav">
+						<ul>
+							<li class="active"><a href="#" class="scroll">Home!</a></li>
+							<li class="page-scroll"><a href="#qui_som" class="scroll">Qui Som?</a></li>
+							<li class="page-scroll"><a href="#que_fem" class="scroll">Que Fem?</a></li>
+							<li class="page-scroll"><a href="#prox_events" class="scroll">Events</a></li>
+							<li class="page-scroll"><a href="#port" class="scroll">Protfolio</a></li>
+							<li class="page-scroll"><a href="#team" class="scroll">Team</a></li>
+							<li class="page-scroll"><a href="#contact" class="scroll">Contact</a></li>
+						</ul>
+					</nav>
+				<!--//End-top-nav-->
+			<!--	</div>
+			</div>	
+		</div>
+
+		<!--start-nav-->
+		
+		<!--//End-header-->
+
+
+		
+	</div><!--End fullscreen-->
+		
+
+
+
+
+
+
+		 <!--start-testmonials-->
+         <div class="testmonials" id="qui_som">
+         	<div class="text-center container">
+	         	<div class="col-md-7 client-says">
+	         		<h1>Qui Som?</h1>
+	         		<h3>Somos la polla en el tema de la divulgación. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus velit quis risus eleifend bibendum. Aenean dictum felis in eros ultrices eleifend. Phasellus ultrices congue feugiat. Vestibulum sed pretium sem, sed venenatis nibh. Phasellus nec tincidunt neque. Proin accumsan sagittis lacus ut lobortis.Proin molestie cursus tortor in eleifend. Suspendisse potenti.</h3>
+	         	</div>
+	         	<div class="client-pic col-md-4 col-md-offset-1">
+	         		<img src="images/client.jpg" title="name" />
+	         	</div>
+	        </div>
+         </div>
+          <!--//End-testmonials-->
+		<!-- start-about -->
+		<div  class="about" id="que_fem">
+			<div class="container">
+				<h2>Que Fem?</h2>
+				<p class="wellcome-note-head"><label>We are a full Services Digital Agency. </label>We Design and develop <span>Websites,</span><span>Applications,</span><span>Mobile Solutions,</span> and more</p>
+				<p class="wellcome-note-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus velit quis risus eleifend bibendum. Aenean dictum felis in eros ultrices eleifend. Phasellus ultrices congue feugiat. Vestibulum sed pretium sem, sed venenatis nibh. Phasellus nec tincidunt neque. Proin accumsan sagittis lacus ut lobortis.Proin molestie cursus tortor in eleifend. Suspendisse potenti.</p>
+			<!-- start-about-grids -->
+				<div>
+					<div class="col-md-3 que-fem-icons">
+						<img src="images/medalla.png" width="74" height="105" title="name" />
+						<h3>Los putos Amos</h3>
+						<div width="50"><p>velit est, tempus in nulla sed, convallis porttitor lacus. Curabitur sed egestas eros. Donec convallis ligula eu diam elementum, quis tempor sem tincidunt.</p></div>
+					</div>
+					<div class="col-md-3 que-fem-icons icon-par">
+						<img src="images/holly.png" width="74" height="105" title="name" />
+						<h3>Los putos Amos</h3>
+						<p>velit est, tempus in nulla sed, convallis porttitor lacus. Curabitur sed egestas eros. Donec convallis ligula eu diam elementum, quis tempor sem tincidunt.</p>
+					</div>
+					<div class="col-md-3 que-fem-icons">
+						<img src="images/medalla.png" width="74" height="105" title="name" />
+						<h3>Los putos Amos</h3>
+						<p>velit est, tempus in nulla sed, convallis porttitor lacus. Curabitur sed egestas eros. Donec convallis ligula eu diam elementum, quis tempor sem tincidunt.</p>
+					</div>
+					<div class="col-md-3 que-fem-icons icon-par">
+						<img src="images/medalla.png" width="74" height="105" title="name" />
+						<h3>Los putos Amos</h3>
+						<p>velit est, tempus in nulla sed, convallis porttitor lacus. Curabitur sed egestas eros. Donec convallis ligula eu diam elementum, quis tempor sem tincidunt.</p>
+					</div>
+
+
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //End-about-grids -->
+		</div>
+		<!-- //End-about -->
+			<div class="events" id="prox_events">
+			<h2>Próxims Events</h2>
+		    <ul class="prox-events">
+		      <li>EVENTS</li><li class="data-title-list">Dates</li>
+		    </ul>
+
+		    <!-- Item -->
+		    <ul class="item-prox-events topline" >
+		        <li><h4>Setmana de la Ciència</h4></li>
+		        <li>15 Nov - 20 Nov 2014</li>
+		        <li class="link-info-event">
+		        	<a data-toggle="modal" href="#modal-1">
+		        		<span class="info-l-st"> Més Informació</span>
+		        		<span class="info-l-mob"><img src="images/button-next.png" width="20" height="20"  alt=""/></span>
+		        	</a>
+		        </li>
+		    </ul>
+			 <!-- Modal -->
+            <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                              <h3 class="modal-title">Quan un físic fa de metge, res de bo pots esperar</h3>
+                              <h4>Gianluca Arauz</h4>
+                        </div>
+                        <div class="modal-body" style="text-align: justify;">
+                            <p style="text-align: justify;">Fins allà on arriba el nostre coneixement, l’últim intent d’unificar medicina i Física data del segle XIX, quan el controvertit científic Victor Frankenstein va aconseguir crear vida a partir de matèria inanimada i descàrregues electromagnètiques [1]. Malauradament, les seves troballes no van gaudir de l’èxit i el reconeixement que mereixen degut a certes polèmiques d’origen ètic. Inspirats pel llegat d’en Victor Frankenstein, aprofitarem aquest Encontre Mèdic per explicar com utilitzar les ones electromagnètiques per millorar la qualitat de vida de les persones afectades per malalties cardiovasculars, les quals representen, amb un 29.34%, la principal causa de mortalitat mundial [2].</p>
+                            <br>
+                            <!--<img style="width: 20%;" src="./images/th21-1.jpg">
+                            <br>-->
+                            <p style="font-size: 80%; text-align: justify;">[1] Mary Shelley, The Modern Prometheus, (Lackington, Hughes, Harding, Mavor &amp; Jones, London, 1818).</p>
+                            <p style="font-size: 80%; text-align: justify;">[2] World Health Organization. World Health Statistics 2013.</p>
+                        </div>
+                      </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+             <!-- End Item -->
+             <!-- Item -->
+		    <ul class="item-prox-events" >
+		        <li><h4>Acadèmia Gauss</h4></li>
+		        <li>25 Dec 2014</li>
+		        <li class="link-info-event">
+		        	<a data-toggle="modal" href="#info1">
+		        		<span class="info-l-st">Més Informació</span>
+		        		<span class="info-l-mob"><img src="images/button-next.png" width="20" height="20"  alt=""/></span>
+		        	</a>
+		        </li>
+		    </ul>		    
+			 <!-- Modal -->
+            <div class="modal fade" id="info1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                              <h3 class="modal-title">Quan un físic fa de metge, res de bo pots esperar</h3>
+                              <h4>Gianluca Arauz</h4>
+                        </div>
+                        <div class="modal-body" style="text-align: justify;">
+                            <p style="text-align: justify;">Fins allà on arriba el nostre coneixement, l’últim intent d’unificar medicina i Física data del segle XIX, quan el controvertit científic Victor Frankenstein va aconseguir crear vida a partir de matèria inanimada i descàrregues electromagnètiques [1]. Malauradament, les seves troballes no van gaudir de l’èxit i el reconeixement que mereixen degut a certes polèmiques d’origen ètic. Inspirats pel llegat d’en Victor Frankenstein, aprofitarem aquest Encontre Mèdic per explicar com utilitzar les ones electromagnètiques per millorar la qualitat de vida de les persones afectades per malalties cardiovasculars, les quals representen, amb un 29.34%, la principal causa de mortalitat mundial [2].</p>
+                            <br>
+                            <!--<img style="width: 20%;" src="./images/th21-1.jpg">
+                            <br>-->
+                            <p style="font-size: 80%; text-align: justify;">[1] Mary Shelley, The Modern Prometheus, (Lackington, Hughes, Harding, Mavor &amp; Jones, London, 1818).</p>
+                            <p style="font-size: 80%; text-align: justify;">[2] World Health Organization. World Health Statistics 2013.</p>
+                        </div>
+                      </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->              
+             <!-- End Item -->
+		</div>
+
+		<div class="what-people-say">
+		  <h3> Presentacions Anteriors</h3>
+
+		  <div class="container">
+				 <div class="cont-people-say col-md-3">
+				    <div><img src="images/t1.jpg" width="266" height="120"  alt=""/></div>
+				        <h4>Imanol Yañez</h4>
+				        <h5>Web Developer at TapQuo</h5>
+				        <hr>
+				   		<p>"Without a doubt Ironhack will play a crucial role in technical education. Despite having a CS degree, it wasn’t until 	Ironhack that I acquired all the skills that I now use every day as a professional developer."<br><br>
+				  </div>		
+				  <div class="cont-people-say col-md-3">
+				    <div><img src="images/t1.jpg" width="266" height="120"  alt=""/></div>
+				        <h4>Marta Fonda</h4>
+				        <h5>Web Developer at Floqq.com</h5>
+				    	<hr>
+				    	<p>"After having graduated with a Computer Science degree, I still needed to complement my education with real world, practical development skills. Ironhack gave me the right tools to start building products with good practices!"<br><br>
+				  </div>		
+				  <div class="cont-people-say col-md-3">
+				    <div><img src="images/t1.jpg" width="266" height="120"  alt=""/></div>
+				        <h4>Jaime Muñoz</h4>
+				        <h5>Web Developer at MarketGoo</h5>
+				        <hr>
+				 	    <p>"Even though I had development experience, I was looking for a quick way to take my skills to the next level in order to qualify for better job opportunities and a higher salary. Ironhack proved to be the perfect place for that."<br><br>
+				  </div>
+
+
+				<div class="col-md-2 col-md-offset-5">
+				  	<a class="more-icon" href="#"><img src="images/moreicon.png" width="30" title="Més presentacions"></a>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+
+		<!-- start-services -->
+		<div id="services" class="services">
+			<div class="container">
+				<h3>Services<label> </label></h3>
+			<!-- start-servicves-list -->
+			<div class="services-list text-center">
+				<ul class="list-unstyled list-inline">
+					<li>
+						<a href="#"><span class="service-icon"> </span><label>Mobile</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon1"> </span><label>Design</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon2"> </span><label>Social</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon3"> </span><label>E-commerce</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon4"> </span><label>Database</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon5"> </span><label>Communications</label></a>
+					</li>
+					<li>
+						<a href="#"><span class="service-icon6"> </span><label>Technology</label></a>
+					</li>
+				</ul>
+			</div>
+			<!--//End-servicves-list-->
+			</div>
+		</div>
+		<!--//End-services-->
+		<!--start-portfolio-->
+		<div id="port" class="portfolio portfolio-box">
+			<div class="container">
+				<h3>Portfolio<label> </label></h3>
+			<!--start-portfolio-->
+         <div id="port" class="container portfolio-main">
+	        	<!-- start-portfolio-script-->
+					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							var filterList = {
+								init: function () {
+								
+									// MixItUp plugin
+									// http://mixitup.io
+									$('#portfoliolist').mixitup({
+										targetSelector: '.portfolio',
+										filterSelector: '.filter',
+										effects: ['fade'],
+										easing: 'snap',
+										// call the hover effect
+										onMixEnd: filterList.hoverEffect()
+									});				
+								
+								},
+								hoverEffect: function () {
+									// Simple parallax effect
+									$('#portfoliolist .portfolio').hover(
+										function () {
+											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+										},
+										function () {
+											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+										}		
+									);				
+								
+								}
+					
+							};
+							// Run the show!
+							filterList.init();
+						});	
+					</script>
+					<!--//End-portfolio-script-->
+					<ul id="filters" class="clearfix">
+						<li><span class="filter active" data-filter="app card icon logo web">All</span> /</li>
+						<li><span class="filter" data-filter="app">DESIGN</span> /</li>
+						<li><span class="filter" data-filter="card">PHOTOGRAPHY</span> /</li>
+						<li><span class="filter" data-filter="icon">VIDEO</span> /</li>
+						<li><span class="filter" data-filter="app">PRINT</span></li>
+					</ul>
+					<div id="portfoliolist">
+					<div class="portfolio logo1 mix_all" data-cat="logo" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+		                <div class="port-info">
+		                	<h4><a href="#"> Flat Pixel</a></h4>
+		                	<span>Website</span>
+		                </div>
+					</div>				
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+		                 <div class="port-info">
+		                	<h4><a href="#">radoslav holan</a></h4>
+		                	<span>Website</span>
+		                </div>
+					</div>		
+					<div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+		                <div class="port-info">
+		                	<h4><a href="#">Apemanboards</a></h4>
+		                	<span>Website</span>
+		                </div>
+					</div>				
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+		                 <div class="port-info">
+		                	<h4><a href="#"> Flat Pixel</a></h4>
+		                	<span>Website</span>
+		                </div>
+					</div>	
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+		                 <div class="port-info">
+		                	<h4><a href="#"> radoslav holan</a></h4>
+		                	<span>Website</span>
+		                </div>
+					</div>			
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+		                 <div class="port-info">
+		                	<h4><a href="#">Apemanboards</a></h4>
+		                	<span>Website</span>
+		                </div>
+					</div>	
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p7.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+		                 <div class="port-info">
+		                	<h4><a href="#"> Flat Pixel</a></h4>
+		                	<span>Website</span>
+		                </div>
+					</div>	
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p8.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+		                 <div class="port-info">
+		                	<h4><a href="#">radoslav holan</a></h4>
+		                	<span>Website</span>
+		                </div>
+					</div>			
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+		                 <div class="port-info">
+		                	<h4><a href="#"> Apemanboards</a></h4>
+		                	<span>Website</span>
+		                </div>
+					</div>
+					<div class="clearfix"> </div>	
+					<a class="more-ports text-center" href="#"><span> </span></a>																																				
+				</div>
+		</div>
+		</div>
+		<div class="clearfix"> </div>
+		</div>
+         <!--//End-portfolio-->
+        
+		<!--start-team-->
+		<div id="team" class="team">
+			<div class="container">
+				<div class="team-members text-center">
+					<div class="col-md-6 team-member">
+						<a class="member-pic" href="#"><img src="images/t1.jpg" title="member-name" /></a>
+						<h3><a href="#">Bruce Wayne</a></h3>
+						<span>Designer</span>
+						<p>vel egestas diam dui nec mauris. Sed tincidunt felis at feugiat euismod. Praesent lacinia posuere massa. Proin quis purus in neque aliquam .</p>
+						<ul class="list-unstyled list-inline social-icons">
+							<li><a href="#"><i class="fa fa-twitter"> </i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"> </i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"> </i> </a></li>
+						</ul>
+					</div>
+					<div class="col-md-6 team-member">
+						<a class="member-pic" href="#"><img src="images/t2.jpg" title="member-name" /></a>
+						<h3><a href="#">Bruce Wayne</a></h3>
+						<span>Designer</span>
+						<p>vel egestas diam dui nec mauris. Sed tincidunt felis at feugiat euismod. Praesent lacinia posuere massa. Proin quis purus in neque aliquam .</p>
+						<ul class="list-unstyled list-inline social-icons">
+							<li><a href="#"><i class="fa fa-twitter"> </i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"> </i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"> </i> </a></li>
+						</ul>
+					</div>
+					<div class="col-md-6 team-member">
+						<a class="member-pic" href="#"><img src="images/t1.jpg" title="member-name" /></a>
+						<h3><a href="#">Bruce Wayne</a></h3>
+						<span>Designer</span>
+						<p>vel egestas diam dui nec mauris. Sed tincidunt felis at feugiat euismod. Praesent lacinia posuere massa. Proin quis purus in neque aliquam .</p>
+						<ul class="list-unstyled list-inline social-icons">
+							<li><a href="#"><i class="fa fa-twitter"> </i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"> </i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"> </i> </a></li>
+						</ul>
+					</div>
+					<div class="col-md-6 team-member">
+						<a class="member-pic" href="#"><img src="images/t2.jpg" title="member-name" /></a>
+						<h3><a href="#">Bruce Wayne</a></h3>
+						<span>Designer</span>
+						<p>vel egestas diam dui nec mauris. Sed tincidunt felis at feugiat euismod. Praesent lacinia posuere massa. Proin quis purus in neque aliquam .</p>
+						<ul class="list-unstyled list-inline social-icons">
+							<li><a href="#"><i class="fa fa-twitter"> </i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"> </i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"> </i> </a></li>
+						</ul>
+					</div>
+					<div class="col-md-6 col-md-offset-3 team-member">
+						<a class="member-pic" href="#"><img src="images/t2.jpg" title="member-name" /></a>
+						<h3><a href="#">Bruce Wayne</a></h3>
+						<span>Designer</span>
+						<p>vel egestas diam dui nec mauris. Sed tincidunt felis at feugiat euismod. Praesent lacinia posuere massa. Proin quis purus in neque aliquam .</p>
+						<ul class="list-unstyled list-inline social-icons">
+							<li><a href="#"><i class="fa fa-twitter"> </i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"> </i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"> </i> </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//End-team-->
+		<!--start-brand-carsuals-->
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		<div class="brand-carsuals">
+			<ul id="flexiselDemo3">
+			    <li><img src="images/b-logo.png" /></li>
+			    <li><img src="images/b-logo.png" /></li>
+			    <li><img src="images/b-logo.png" /></li>
+			    <li><img src="images/b-logo.png" /></li>                                                 
+			</ul>   
+			<script type="text/javascript">
+				$(window).load(function() {
+				    $("#flexiselDemo3").flexisel({
+				        visibleItems: 5,
+				        animationSpeed: 1000,
+				        autoPlay: true,
+				        autoPlaySpeed: 3000,            
+				        pauseOnHover: true,
+				        enableResponsiveBreakpoints: true,
+				        responsiveBreakpoints: { 
+				            portrait: { 
+				                changePoint:480,
+				                visibleItems: 1
+				            }, 
+				            landscape: { 
+				                changePoint:640,
+				                visibleItems: 2
+				            },
+				            tablet: { 
+				                changePoint:768,
+				                visibleItems: 3
+				            }
+				        }
+				    });
+				    
+				});
+			</script>
+		</div>
+		<!--//End-brand-carsuals-->
+		<!--start-blog-->
+		<div id="blog" class="blog">
+			<div class="container">
+				<h3>Blog<label> </label></h3>
+				<div class="blog-grids">
+					<div class="col-md-4 blog-grid-row frist-row">
+						<a class="post-pic" href="#"><img src="images/post-pic.jpg" title="pic-name" /></a>
+						<!--start-artical-info-->
+						<div class="artical-info">
+							<div class="post-head">
+								<div class="post-head-left">
+									<h4><a href="#">This is blog post title</a></h4>
+									<p class="author">By <a href="#"> Amine Fessi</a></p>
+								</div>
+								<div class="post-head-right">
+									<span>17</span><label>April 2013</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
+							<div class="post-bottom">
+								<div class="post-bottom-left">
+									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
+								</div>
+								<div class="post-bottom-right">
+									<a class="artbtn" href="#">Read More</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--//End-artical-info-->
+					</div>
+					<!-->
+					<div class="col-md-4 artical-row2">
+						<!--start-artical-info-->
+						<div class="artical-info">
+							<div class="post-head post-head1">
+								<div class="post-head-left">
+									<h4><a href="#">This is blog post title</a></h4>
+									<p class="author">By <a href="#"> Amine Fessi</a></p>
+								</div>
+								<div class="post-head-right post-head-right-C">
+									<span>20</span><label>April 2013</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
+							<div class="post-bottom">
+								<div class="post-bottom-left">
+									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
+								</div>
+								<div class="post-bottom-right">
+									<a class="artbtn artbtn1" href="#">Read More</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--//End-artical-info-->
+						<!--start-artical-info-->
+						<div class="artical-info">
+							<div class="post-head post-head1">
+								<div class="post-head-left">
+									<h4><a href="#">This is blog post title</a></h4>
+									<p class="author">By <a href="#"> Amine Fessi</a></p>
+								</div>
+								<div class="post-head-right post-head-right-C">
+									<span>23</span><label>April 2013</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
+							<div class="post-bottom">
+								<div class="post-bottom-left">
+									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
+								</div>
+								<div class="post-bottom-right">
+									<a class="artbtn artbtn1" href="#">Read More</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--//End-artical-info-->
+					</div>
+					<!-->
+					<div class="col-md-4 artical-row2">
+						<!--start-artical-info-->
+						<div class="artical-info">
+							<div class="post-head post-head1">
+								<div class="post-head-left">
+									<h4><a href="#">This is blog post title</a></h4>
+									<p class="author">By <a href="#"> Amine Fessi</a></p>
+								</div>
+								<div class="post-head-right post-head-right-C">
+									<span>28</span><label>April 2013</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
+							<div class="post-bottom">
+								<div class="post-bottom-left">
+									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
+								</div>
+								<div class="post-bottom-right">
+									<a class="artbtn artbtn1" href="#">Read More</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--//End-artical-info-->
+						<!--start-artical-info-->
+						<div class="artical-info">
+							<div class="post-head post-head1">
+								<div class="post-head-left">
+									<h4><a href="#">This is blog post title</a></h4>
+									<p class="author">By <a href="#"> Amine Fessi</a></p>
+								</div>
+								<div class="post-head-right post-head-right-C">
+									<span>30</span><label>April 2013</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
+							<div class="post-bottom">
+								<div class="post-bottom-left">
+									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
+								</div>
+								<div class="post-bottom-right">
+									<a class="artbtn artbtn1" href="#">Read More</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--//End-artical-info-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//End-blog-->
+		<!--start-contact-->
+		<div id="contact" class="contact">
+			<div class="container">
+				 <h3>Contact<label> </label></h3>
+				<div class="contact-grids">
+					<div class="col-md-6 contact-grid-left">
+						<form method="post" action="contact-post.html">
+							<input type="text" value="Name " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+							<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+							<input type="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+							<textarea onfocus="if(this.value == 'Your Message here....') this.value='';" onblur="if(this.value == '') this.value='Your Message here....;">Your Message here....</textarea>
+							<p class="conditions"> <span>*</span>scelerisque sit amet felis sit nunc.</p>
+							<span class="submit-btn"><input type="submit" value="Send"></span>
+						</form>
+					</div>
+					<!---->
+					<div class="col-md-6 contact-grid-right">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3146627.8634626623!2d-96.59883788421166!3d39.629933318909686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1399976101005" > </iframe>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia.</p>
+						<div class="col-md-4">
+							<h5>Phone</h5>
+							<span>[81]123456789</span>
+						</div>
+						<div class="col-md-4">
+							<h5>Address</h5>
+							<span>2014 Street,</span>
+							<span>San francisco California,</span>
+							<span>United States,</span>
+						</div>
+						<div class="col-md-4">
+							<h5>Email</h5>
+							<span><a href="#">Hello@Blueagency.com</a></span>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!--start-contact-social-->
+				<ul class="list-unstyled list-inline contact-social">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-skype"></i></a></li>
+				</ul>
+				<!--//End-contact-social-->
+		</div>
+		</div>
+		<!--//End-contact-->
+		<!--//End-container-->
+		<script src="js/bootstrap-modal.js"></script>
+	</body>
+</html>
+
