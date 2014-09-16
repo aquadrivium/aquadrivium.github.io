@@ -1,2 +1,0 @@
-quadrivium.github.io
-====================
