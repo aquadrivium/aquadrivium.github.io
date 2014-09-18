@@ -103,8 +103,17 @@ nav:after {
 	height: 22px;
 	padding: 2px;
 }
+.nav-mob-esp img {
+	width: 22px;
+	height: 22px;
+	padding: 2px;
+}
 .idioma-no{
 	text-decoration: underline;
+}
+.banderas{
+	width: 22px;
+	height: 14px;
 }
 
 .logo a{
@@ -910,12 +919,18 @@ h3 {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	text-align: center;
-	width: 40%;
+	text-align: left;
+	width: 100%;
 	position: left;
 	color: white;
 	top: 5%;
 	right: 9%;
+}
+.bigbang_992{
+	display: block;
+}
+.bigbang{
+	display: none;
 }
 .port-info{
 	text-align:center;
@@ -1716,8 +1731,8 @@ p.m_5 {
 	color:#FFF;
 }
 .contact-grid-right p{
-	font-size: 2em;
-	line-height:2em;
+	font-size: 1.5em;
+	line-height: 1.5em;
 	color: white;
 	font-style: oblique;
 	text-align: center;
@@ -1761,7 +1776,7 @@ p.m_5 {
 	}
 	#filters {
 		right: 0%;
-		width:50%;
+		width:90%;
 	}
 }
 /*-----//End-media-quries-for-1280px-laptops-----*/
@@ -1769,7 +1784,7 @@ p.m_5 {
 @media (max-width:1024px){
 	#filters {
 		right: 0%;
-		width: 60%;
+		width: 90%;
 	}
 	.slid-info {
 		top: 15%;
@@ -1810,7 +1825,7 @@ p.m_5 {
 @media (max-width:768px){
 	#filters {
 		right: 0%;
-		width: 60%;
+		width: 90%;
 		top: 6%;
 	}
 	.slid-info {

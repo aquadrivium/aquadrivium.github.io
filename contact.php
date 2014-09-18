@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
     // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     // echo "Gràcies per contactar amb nosaltres!\n\n";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
-    header( "Location: gracies.html" );
+    header( "Location: http://www.quadrivium.cat/gracies.html" );
     die();
     }
 ?>
