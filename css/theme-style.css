@@ -5,6 +5,23 @@ html, body{
     background-color: #FFF;
     height:100%;
 }
+/*ETIQUETES AUTOMÀTIQUES*/
+/*PREUS*/
+span.preu-xerrada{
+	display: inline;
+}
+span.preu-xerrada::before{
+	content: "110 €";
+}
+span.preu-taller{
+	display: inline;
+}
+span.preu-taller::before{
+	content: "180 €";
+}
+/*END OF PREUS*/
+/*END OF ETIQUETES AUTOMÀTIQUES*/
+
 /*body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -1172,6 +1189,27 @@ p.m_5 {
 .modal-title{
 	font-size: 25px;
 	text-transform: uppercase;
+}
+.modal-tema, .modal-nivell-cat, .modal-nivell-esp{
+	font-style: italic;
+}
+.modal-tema::before{
+	content: "TEMA: ";
+	font-style: normal;
+}
+.modal-nivell-cat::before{
+	content: "NIVELL: ";
+	font-style: normal;
+}
+.modal-nivell-esp::before{
+	content: "NIVEL: ";
+	font-style: normal;
+}
+.modal-oberta::after{
+	content: url(../images/green-unlock-16.png);
+}
+.modal-tancada::after{
+	content: url(../images/red-lock-16.png);
 }
 .modal-footer p{
 	font-size: 15px;
