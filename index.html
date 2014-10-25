@@ -158,54 +158,54 @@
 					</div>
 		        	<div class="portfolio-main">
 			        	<!-- start-portfolio-script-->
-							<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-							<script type="text/javascript">
-								$(function () {
-									var filterList = {
-										init: function () {
-										
-											// MixItUp plugin
-											// http://mixitup.io
-											$('#portfoliolist').mixitup({
-												targetSelector: '.portfolio',
-												filterSelector: '.filter',
-												effects: ['fade'],
-												easing: 'snap',
-												// call the hover effect
-												onMixEnd: filterList.hoverEffect()
-											});				
-										
-										},
-										hoverEffect: function () {
-											// Simple parallax effect
-											$('#portfoliolist .portfolio').hover(
-												function () {
-													$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-													$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-												},
-												function () {
-													$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-													$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-												}		
-											);				
-										
-										}
-							
-									};
-									// Run the show!
-									filterList.init();
-								});	
-							</script>
-							<!--//End-portfolio-script-->
-							<div class="col-md-12">
-								<ul id="filters" class="clearfix">
-									<li><span class="filter active" data-filter="phys math altres">TOT</span> /</li>
-									<li><span class="filter" data-filter="phys">FÍSICA</span> /</li>
-									<li><span class="filter" data-filter="math">MATEMÀTIQUES</span> /</li>
-									<li><span class="filter" data-filter="mon">CIÈNCIES MÓN CONTEMP.</span></li>
-								</ul>
-							</div>
-							<div id="portfoliolist">
+						<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+						<script type="text/javascript">
+							$(function () {
+								var filterList = {
+									init: function () {
+									
+										// MixItUp plugin
+										// http://mixitup.io
+										$('#portfoliolist').mixitup({
+											targetSelector: '.portfolio',
+											filterSelector: '.filter',
+											effects: ['fade'],
+											easing: 'snap',
+											// call the hover effect
+											onMixEnd: filterList.hoverEffect()
+										});				
+									
+									},
+									hoverEffect: function () {
+										// Simple parallax effect
+										$('#portfoliolist .portfolio').hover(
+											function () {
+												$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+												$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+											},
+											function () {
+												$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+												$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+											}		
+										);				
+									
+									}
+						
+								};
+								// Run the show!
+								filterList.init();
+							});	
+						</script>
+						<!--//End-portfolio-script-->
+						<div class="col-md-12">
+							<ul id="filters" class="clearfix">
+								<li><span class="filter active" data-filter="phys math altres">TOT</span> /</li>
+								<li><span class="filter" data-filter="phys">FÍSICA</span> /</li>
+								<li><span class="filter" data-filter="math">MATEMÀTIQUES</span> /</li>
+								<li><span class="filter" data-filter="mon">CIÈNCIES MÓN CONTEMP.</span></li>
+							</ul>
+						</div>
+						<div id="portfoliolist">
 							<div class="portfolio phys mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
 								<div class="portfolio-wrapper">		
 									<a data-toggle="modal"  href="#modal-higgs" class="b-link-stripe b-animate-go  thickbox">
@@ -257,7 +257,7 @@
 								  	</div></a>
 				                </div>
 				                 <div class="port-info">
-				                	<h4><a>Relativitat Especial</a></h4>
+				                	<h4><a>Relativitat Espacial</a></h4>
 				                	<span>Física</span>
 				                </div>
 							</div>	
@@ -267,22 +267,24 @@
 				                      <div class="modal-content">
 				                        <div class="modal-header">
 				                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				                              <h3 class="modal-title">Relativitat Especial</h3>
+				                              <h3 class="modal-title">TOT ÉS RELATIU? L'espai-temps d'Einstein</h3>
 				                              <h4 class="modal-tema">Física</h4>
 				                              <h4 class="modal-nivell-cat">1r i 2n de Batxillerat</h4>
 				                        </div>
 				                        <div class="modal-body" style="text-align: justify;">
-				                            <p style="text-align: justify;">La Teoria de la Relativitat Especial d'Einstein és una de les teories més belles de la història de la ciència; a pesar de la seva senzillesa -consta de dos simples postulats-, les seves implicacions van canviar completament la nostra concepció d'espai i temps. Al llarg d'aquesta xerrada presentarem pas a pas la teoria d'una manera clara i comprensible, utilitzant experiments mentals (o "gedankenexperiments", com en deia Einstein) i gairebé sense matemàtiques. Entendrem, entre altres coses, per què és possible viatjar al futur, per què res no pot superar la velocitat de la llum i què vol dir la famosa equació E = mc².
+				                            <p style="text-align: justify;">En aquesta xerrada us oferim una primera aproximació, amena i sense gairebé cap fórmula, a la Teoria de la Relativitat d'Albert Einstein. Durant la primera part mirarem d'entendre els fonaments de la Teoria de la Relativitat Especial i aprendrem que l'espai i el temps formen un tot, que no es pot anar més ràpid que la velocitat de la llum, que E=mc2 i que conceptes tan "clars" com "simultani", "massa", "forma" són en realitat... relatius. A la segona part ens endinsarem de ple en un espai-temps corbat, sortirem il·lesos de la gran explosió del Big Bang i intentarem de no caure en un forat negre mentre mirem d'entendre què és això de la Relativitat General.
 				                        	 <br><br>
-				                            INDEX:
-				                            <ul>	
+				                            ÍNDEX:
+				                            <ul>
 												<li>Introducció: un nou concepte de temps</li>
 												<li>Els dos postulats de la Relativitat Especial</li>
 												<li>El problema de la sincronització</li>
 												<li>Dilatació temporal i contracció de les longituds</li>
 												<li>Viatges al futur: la paradoxa dels bessons</li>
 												<li>Més enllà de la Relativitat Especial: la Relativitat General</li>
-												<li>La Relativitat Especial en la nostra vida quotidiana</li>
+												<li>Les equacions d'Einstein</li>
+												<li>El Big Bang i el nostre Univers</li>
+												<li>Forats negres</li>
 											</ul>	
 											</p>
 				                        </div>
@@ -397,8 +399,7 @@
 				                              <h4 class="modal-nivell-cat">ESO, 1r i 2n de Batxillerat</h4>
 				                        </div>
 				                        <div class="modal-body" style="text-align: justify;">
-				                            <p style="text-align: justify;">La superconductivitat va ser descoberta en 1911 per Heike Kamerlingh Onnes. Tot i que avui dia existeixen diversos ginys basats en els superconductors, no podem pas dir que sigui un fenomen plenament comprès. <br>
-				                            Introduirem aquest apassionant tema fent servir diversos experiments. La comprensió conjunta i gradual de cada una de les demostracions experimentals que farem, ens permetrà fer-nos una idea intuïtiva d'aquests fenomen tant espectacular i a la vegada complex... i tot això sense fer servir ni una sola equació!
+				                            <p style="text-align: justify;">La Superconductivitat es coneix des del 1911. El físic alemany Heike Kamerlingh Onnes va descobrir que el mercuri es tornava superconductor quan es refredava per sota de 4.2 K. Tres anys més tard, en Heike va ser guardonat amb el Premi Nobel de Física per aquest descobriment. Quins materials són superconductors i en què consisteix la Superconductivitat? Per a què serveixen els materials superconductors? Cap a on ens portaran els avenços realitzats en aquests camp? En el taller experimental respondrem totes aquestes preguntes i segurament alguna més. Els alumnes interactuaran amb una sèrie d’experiments senzills de Magnetisme que de manera gradual els hi aportaran conceptes cada cop més complexos. Al final, seran capaços d’entendre intuïtivament en què consisteix aquest fenomen tan sorprenent. A més, aprofitarem la Superconductivitat per fer una escapada furtiva cap a temes que aparentment no hi tenen res a veure, com per exemple la Nanomedicina o el Càncer... i tot això sense utilitzar ni una sola fórmula matemàtica.
 				                             <br><br>
 				                            ÍNDEX:
 				                            <ul>	
@@ -414,7 +415,8 @@
 				                        <div class="modal-footer"><p>Preu de la xerrada: <span class="preu-taller"></span></p></div>
 				                      </div><!-- /.modal-content -->
 				                </div><!-- /.modal-dialog -->
-		         		    </div><!-- /.modal superconductivitat -->	
+		         		    </div><!-- /.modal superconductivitat -->
+
 							<div class="portfolio phys mon mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
 								<div class="portfolio-wrapper">		
 									<a data-toggle="modal"  href="#modal-quantica" class="b-link-stripe b-animate-go  thickbox">
@@ -432,7 +434,7 @@
 				                      <div class="modal-content">
 				                        <div class="modal-header">
 				                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				                              <h3 class="modal-title">FÍSICA QUÁNTICA</h3>
+				                              <h3 class="modal-title">FÍSICA QUÀNTICA</h3>
 				                              <h4 class="modal-tema">Física</h4>
 				                              <h4 class="modal-nivell-cat">1r i 2n de Batxillerat</h4>
 				                        </div>
@@ -521,7 +523,6 @@
 				                              <h4 class="modal-tema">Física</h4>
 				                              <h4 class="modal-nivell-cat">1r i 2n de Batxillerat</h4>                      
 				                        </div>
-				                        
 				                        <div class="modal-body" style="text-align: justify;">
 				                            <p style="text-align: justify;">En aquesta xerrada us proposem veure la física que aprenem al Batxillerat aplicada a l'anàlisi de pel·lícules clàssiques de superherois com Superman o Spiderman. Tots sabem que els superherois no poden existir, però... i si ens plantegem la pregunta d'una altra manera? Suposem que poden existir els superherois. Llavors: Quines condicions físiques hauríem de imposar perquè el que fan sigui plausible? 
 				                            <br>
@@ -541,7 +542,49 @@
 				                </div><!-- /.modal-dialog -->
 		         		    </div><!-- /.modal Cinema1 -->
 
-		         		   <div class="portfolio phys math mon mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
+		         		    <div class="portfolio phys mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">		
+									<a data-toggle="modal"  href="#modal-nobel" class="b-link-stripe b-animate-go  thickbox">
+								     <img class="p-img" src="images/nobel2014.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left b-delay03"><img src="images/link-ico.png" alt=""/></h2>
+								  	</div></a>
+				                </div>
+				                 <div class="port-info">
+				                	<h4><a>Premi Nobel 2014</a></h4>
+				                	<span>Física</span>
+				                </div>
+							</div>		
+							<!--Modal Nobel-->
+							<div class="modal fade" id="modal-nobel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				                <div class="modal-dialog">
+				                      <div class="modal-content">
+				                        <div class="modal-header">
+				                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				                            <h3 class="modal-title">Premi Nobel 2014: il·luminant el món</h3>
+				                              <h4 class="modal-tema">Física</h4>
+				                              <h4 class="modal-nivell-cat">1r i 2n de Batxillerat</h4>                      
+				                        </div>
+				                        <div class="modal-body" style="text-align: justify;">
+				                            <p style="text-align: justify;">Fa poc es van fer públics els guanyadors del Premi Nobel de Física de 2014: Isamu Akasaki, Hiroshi Amano i Shuji Nakamura són els tres guardonats, per les seves contribucions al desenvolupament de LEDs emissors de llum blava. De fet, aquesta nova tecnologia es troba molt més present a la nostra vida quotidiana del que ens podem arribar a imaginar. Però, tan complicat era fabricar LEDs de color blau? Per què tenen un rol tan important en la tecnologia del segle XXI? Què tenen a veure els LEDs blaus amb les bombetes de baix consum LED?
+				                            <br>
+											Responent aquestes i d'altres preguntes ens endinsarem en questions tan fonamentals i diverses com la natural·lesa de la llum i l'electromagnetisme, la teoria del color, amb un taller pràctic d’espectres òptics, i fins i tot farem una petita incursió al món de la mecànica quàntica, l'estructura interna de la matèria i la nanotecnologia.	
+				                            <br><br>
+				                            ÍNDEX:
+				                            <ul>	
+												<li>Què és la llum? Espectre electromagnètic</li>
+												<li>Experiments amb l'espectrofotòmetre</li>
+												<li>Breu història de l'electroluminiscència</li>
+												<li>LED: principis fonamentals de funcionament</li>
+												<li>Reptes (nano)tecnològics</li>
+												<li>El LED blau (i blanc) avui en dia</li>
+											</ul>
+											</p>
+				                        </div>
+				                        <div class="modal-footer"><p>Preu de la xerrada: <span class="preu-xerrada"></span></p></div>
+				                      </div><!-- /.modal-content -->
+				                </div><!-- /.modal-dialog -->
+		         		    </div><!-- /.modal Nobel1 -->
+
+		         		   	<div class="portfolio phys math mon mix_all" data-cat="phys" style="display: inline-block; opacity: 1;">
 								<div class="portfolio-wrapper">		
 									<a data-toggle="modal"  href="#modal-oferim" class="b-link-stripe b-animate-go  thickbox">
 								     <img class="p-img" src="images/oferta.png" /><!--<div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
@@ -571,6 +614,7 @@
 				                      </div><!-- /.modal-content -->
 				                </div><!-- /.modal-dialog -->
 		         		    </div><!-- /.modal oferim -->
+
 						</div>
 					</div>
 				</div>
@@ -684,47 +728,7 @@
 				</div>-->
 			</div> <!--end container-->
 		</div>
-
-
-
-
-		<!-- start-services -->
-	<!--	<div id="services" class="services">
-			<div class="container">
-				<h3>Services<label> </label></h3>
-			<!-- start-servicves-list >
-			<div class="services-list text-center">
-				<ul class="list-unstyled list-inline">
-					<li>
-						<a href="#"><span class="service-icon"> </span><label>Mobile</label></a>
-					</li>
-					<li>
-						<a href="#"><span class="service-icon1"> </span><label>Design</label></a>
-					</li>
-					<li>
-						<a href="#"><span class="service-icon2"> </span><label>Social</label></a>
-					</li>
-					<li>
-						<a href="#"><span class="service-icon3"> </span><label>E-commerce</label></a>
-					</li>
-					<li>
-						<a href="#"><span class="service-icon4"> </span><label>Database</label></a>
-					</li>
-					<li>
-						<a href="#"><span class="service-icon5"> </span><label>Communications</label></a>
-					</li>
-					<li>
-						<a href="#"><span class="service-icon6"> </span><label>Technology</label></a>
-					</li>
-				</ul>
-			</div>
-			<!--//End-servicves-list>
-			</div>
-		</div> -->
-		<!--//End-services-->
-
-
-		
+	
         
 		<!--start-team-->
 		<div id="team" class="team">
@@ -882,193 +886,6 @@
 		<!--//End-team-->
 
 
-		<!--start-brand-carsuals-->
-		<!-- CAMBIAR ICONOS DE FLECHAS BLANCOS POR UNOS NEGROS!!!!!!
-		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
-		<div class="brand-carsuals">
-			<div class="container">
-				<div class="sectitle">
-					<h3>Clients<label style="background: black;"> </label></h3>
-				</div>
-				<ul id="flexiselDemo3">
-				    <li><img src="images/b-logo.png" /></li>
-				    <li><img src="images/b-logo.png" /></li>
-				    <li><img src="images/b-logo.png" /></li>
-				    <li><img src="images/b-logo.png" /></li>                                                 
-				</ul>   
-				<script type="text/javascript">
-					$(window).load(function() {
-					    $("#flexiselDemo3").flexisel({
-					        visibleItems: 5,
-					        animationSpeed: 1000,
-					        autoPlay: true,
-					        autoPlaySpeed: 3000,            
-					        pauseOnHover: true,
-					        enableResponsiveBreakpoints: true,
-					        responsiveBreakpoints: { 
-					            portrait: { 
-					                changePoint:480,
-					                visibleItems: 1
-					            }, 
-					            landscape: { 
-					                changePoint:640,
-					                visibleItems: 2
-					            },
-					            tablet: { 
-					                changePoint:768,
-					                visibleItems: 3
-					            }
-					        }
-					    });
-					    
-					});
-				</script>
-			</div> 
-		</div>-->
-		
-		<!--//End-brand-carsuals-->
-
-
-		<!--start-blog-->
-		<!--<div id="blog" class="blog">
-			<div class="container">
-				<h3>Blog<label> </label></h3>
-				<div class="blog-grids">
-					<div class="col-md-4 blog-grid-row frist-row">
-						<a class="post-pic" href="#"><img src="images/post-pic.jpg" title="pic-name" /></a>
-						<!--start-artical-info>
-						<div class="artical-info">
-							<div class="post-head">
-								<div class="post-head-left">
-									<h4><a href="#">This is blog post title</a></h4>
-									<p class="author">By <a href="#"> Amine Fessi</a></p>
-								</div>
-								<div class="post-head-right">
-									<span>17</span><label>April 2013</label>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
-							<div class="post-bottom">
-								<div class="post-bottom-left">
-									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
-								</div>
-								<div class="post-bottom-right">
-									<a class="artbtn" href="#">Read More</a>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<!--//End-artical-info>
-					</div>
-
-					<div class="col-md-4 artical-row2">
-						<!--start-artical-info>
-						<div class="artical-info">
-							<div class="post-head post-head1">
-								<div class="post-head-left">
-									<h4><a href="#">This is blog post title</a></h4>
-									<p class="author">By <a href="#"> Amine Fessi</a></p>
-								</div>
-								<div class="post-head-right post-head-right-C">
-									<span>20</span><label>April 2013</label>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
-							<div class="post-bottom">
-								<div class="post-bottom-left">
-									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
-								</div>
-								<div class="post-bottom-right">
-									<a class="artbtn artbtn1" href="#">Read More</a>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<!--//End-artical-info-->
-						<!--start-artical-info>
-						<div class="artical-info">
-							<div class="post-head post-head1">
-								<div class="post-head-left">
-									<h4><a href="#">This is blog post title</a></h4>
-									<p class="author">By <a href="#"> Amine Fessi</a></p>
-								</div>
-								<div class="post-head-right post-head-right-C">
-									<span>23</span><label>April 2013</label>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
-							<div class="post-bottom">
-								<div class="post-bottom-left">
-									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
-								</div>
-								<div class="post-bottom-right">
-									<a class="artbtn artbtn1" href="#">Read More</a>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<!--//End-artical-info>
-					</div>
-					<div class="col-md-4 artical-row2">
-						<!--start-artical-info>
-						<div class="artical-info">
-							<div class="post-head post-head1">
-								<div class="post-head-left">
-									<h4><a href="#">This is blog post title</a></h4>
-									<p class="author">By <a href="#"> Amine Fessi</a></p>
-								</div>
-								<div class="post-head-right post-head-right-C">
-									<span>28</span><label>April 2013</label>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
-							<div class="post-bottom">
-								<div class="post-bottom-left">
-									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
-								</div>
-								<div class="post-bottom-right">
-									<a class="artbtn artbtn1" href="#">Read More</a>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<!--//End-artical-info-->
-						<!--start-artical-info>
-						<div class="artical-info">
-							<div class="post-head post-head1">
-								<div class="post-head-left">
-									<h4><a href="#">This is blog post title</a></h4>
-									<p class="author">By <a href="#"> Amine Fessi</a></p>
-								</div>
-								<div class="post-head-right post-head-right-C">
-									<span>30</span><label>April 2013</label>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet turpis a nibh feugiat, nec viverra arcu lacinia. Praesent facilisis diam eget velit tristique, a commodo elit porttitor. Mauris ac pretium ligula. Nam ultricies metus eu semper rutrum. Pellentesque tortor nulla, scelerisque sit amet felis sit amet, ornare euismod nunc.</p>
-							<div class="post-bottom">
-								<div class="post-bottom-left">
-									<p><a href="#">10 Comments</a> | <i class="fa fa-heart"> </i> 151</p>
-								</div>
-								<div class="post-bottom-right">
-									<a class="artbtn artbtn1" href="#">Read More</a>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<!--//End-artical-info>
-					</div>
-				</div>
-			</div>
-		</div>-->
-		<!--//End-blog-->
-
-
-
 		<!--start-contact-->
 		<div id="contact" class="contact">
 			<div class="container">
@@ -1116,7 +933,8 @@
 				</div>
 			</div>
 			<div class="cpr col-md-12">
-                    <p class="text-center">2014 - Web designed by <a data-toggle="modal" data-target="#modal-blaip" href="#" title="...">Blai Pié</a> &amp; <a data-toggle="modal" data-target="#modal-nahuel" href="#" title="...">Nahuel Statuto</a>. Hosted on <a href="http://pages.github.com" title="GitHub is great!">GitHub</a></p>
+                    <p class="text-center">2014 - Web designed by <a data-toggle="modal" data-target="#modal-blaip" href="#" title="...">Blai Pié</a> &amp; <a data-toggle="modal" data-target="#modal-nahuel" href="#" title="...">Nahuel Statuto</a>.
+                    Hosted on <a href="http://pages.github.com" title="GitHub is great!">GitHub</a></p>
             </div>  
 		</div>
 		<!--//End-contact-->
