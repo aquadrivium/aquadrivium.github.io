@@ -1221,9 +1221,7 @@ p.m_5 {
 	color: black;
 	text-decoration: underline;
 }
-.modal-body em{
-	font-size: 13px;
-}
+/*.modal-body em{font-size: 13px;}*/
 /*---- start-testmonials-----*/
 .testmonials{
 	/*background: url(../images/test-bg.jpg) no-repeat 0px 0px;*/
