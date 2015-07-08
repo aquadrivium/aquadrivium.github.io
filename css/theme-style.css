@@ -53,7 +53,7 @@ nav {
 	text-decoration: none;
 	color: #000000;
 	background-color: #FFCC00;
-	z-index: 1;
+	z-index: 1000;
 	width: 100%;
 	padding-bottom: 1vh;
 	padding-top: 1vh;
@@ -353,7 +353,7 @@ a.backlink:focus{
 	width: 100%;
 	position: absolute;
 	bottom: 42px;
-	z-index: 99;
+	/*z-index: 99;*/
   }
 .slid-info{
 	position: absolute;
@@ -367,14 +367,14 @@ a.backlink:focus{
 	font-size: 3em;
 }
 .slid-info p{
-	color: #fff;
-	text-transform: uppercase;
+	color: #FFF;
+	/*text-transform: uppercase;*/
 	font-size: 0.85em;
-	width: 65%;
+	width: 80%;
 	line-height: 1.8em;
 }
 .slid-btn{
-	border: 2px solid #FFF;
+	border: 2px solid #FFCC00;
 	padding: 0.6em 2.2em;
 	display: inline-block;
 	font-size: 1.2em;
@@ -384,11 +384,15 @@ a.backlink:focus{
 	-moz-border-radius: 0.6em;
 	-o-border-radius: 0.6em;
 	-ms-border-radius: 0.6em;
+	color: #000;
+	background: #FFCC00;
+	opacity: 0.7;
 }
 .slid-btn:hover{
 	text-decoration: none;
-	background: rgba(0, 162, 193, 0.36);
-	color: #fff;
+	background: #FFCC00;
+	opacity: 1;
+	color: #000;
 }
 .rslides_tabs li {
   display: inline;
@@ -544,6 +548,20 @@ h3 {
 	font-size:24px; 
 	color:#94BEDA; 
 }
+
+.noticies { 
+	width: 100%; 
+	text-align:center; 
+	background: black; 
+	padding: 3.5em 0 5em;
+
+}
+
+.noticies h3 { 
+	color: white;
+	margin-bottom: 30px;
+}
+
 /*.historial .col-md-3{
 	width: 27%
 }*/
@@ -559,7 +577,7 @@ h3 {
 	-o-border-radius:5px; 
 	border-radius:5px; 
 	border:2px solid #FFF;
-	height: 600px;
+	height: 270px;
 }
 .cont-people-say img {
 	width:100%; 
@@ -577,7 +595,7 @@ h3 {
 }
 .cont-people-say hr { 
 	border:none; 
-	border-top:dashed 1px #E0E0E0; 
+	/*border-top:dashed 1px #E0E0E0; */
 	margin:0;
 }
 .cont-people-say a{
@@ -708,7 +726,7 @@ h3 {
   top: 52%;
   left: 0;
   opacity: 0.7;
-  z-index: 3;
+  z-index: 100;
   text-indent: -9999px;
   overflow: hidden;
   text-decoration: none;
@@ -738,15 +756,15 @@ h3 {
 #slider3-pager span{
 	width:100px;
 	height:15px;
-	background:#fff;
+	background:#FFCC00;
 	display:inline-block;
 	border-radius:30em;
-	opacity:0.6;
+	opacity: 0.6;
 }
 #slider3-pager .rslides_here a {
-  background: #FFF;
+  background: #FFCC00;
   border-radius:30em;
-  opacity:1;
+  opacity: 1;
 }
 
 #slider3-pager a {
