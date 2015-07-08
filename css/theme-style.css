@@ -746,6 +746,10 @@ h3 {
   right: 0;
   }
 
+#slider3-pager {
+	z-index: 99;
+}
+
 #slider3-pager a {
   display: inline-block;
 }
