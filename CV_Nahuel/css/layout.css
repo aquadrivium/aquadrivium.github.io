@@ -266,7 +266,7 @@ ul#nav li.current a { color: #FFCC00; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
+#resume .header-col { padding-top: 0px; }
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
@@ -384,8 +384,8 @@ ul#nav li.current a { color: #FFCC00; }
     -moz-animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
 }
-.sisop {
-    width: 90%;
+.internet {
+    width: 70%;
     -moz-animation: jquery 2s ease;
     -webkit-animation: jquery 2s ease;
 }
