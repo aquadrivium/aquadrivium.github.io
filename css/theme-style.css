@@ -758,11 +758,11 @@ h3 {
   float: left;
 }
 #slider3-pager span{
-	width:100px;
+	width:60px;
 	height:15px;
 	background:#FFCC00;
 	display:inline-block;
-	border-radius:30em;
+	border-radius:50em;
 	opacity: 0.6;
 }
 #slider3-pager .rslides_here a {
