@@ -1788,6 +1788,15 @@ p.m_5 {
 .contact-grid-right{
 	color:#FFF;
 }
+.contact-grid-left p{
+	font-size: 1.5em;
+	line-height: 1.5em;
+	color: white;
+}
+.contact-grid-left h5{
+	font-weight:700;
+		color: white;
+}
 .contact-grid-right p{
 	font-size: 1.5em;
 	line-height: 1.5em;
