@@ -277,7 +277,7 @@ ul#nav li.current a { color: #FFCC00; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 18px;
+   margin-bottom: 9px;
    margin-top: 9px;
 }
 #resume .info span {
@@ -291,6 +291,9 @@ ul#nav li.current a { color: #FFCC00; }
 #resume .more-info {
    font: 12px/24px 'opensans-regular', sans-serif;
    font-style: italic;
+}
+#resume .item-title {
+   margin-top: 18px;
 }
 /*----------------------------------------------*/
 /*	Skill Bars
