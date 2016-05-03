@@ -277,8 +277,7 @@ ul#nav li.current a { color: #FFCC00; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 90px;
-   margin-top: 9px;
+   margin-bottom: 18px;
 }
 #resume .info span {
    margin-right: 5px;
