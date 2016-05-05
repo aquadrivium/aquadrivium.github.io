@@ -346,6 +346,7 @@ ul#nav li.current a { color: #FFCC00; }
   	width: 100%;
   	-moz-animation: catalan 2s ease;
   	-webkit-animation: catalan 2s ease;
+  	content: "Native";
 }
 .spanish {
   	width: 100%;
