@@ -344,34 +344,34 @@ ul#nav li.current a { color: #FFCC00; }
 
 .catalan {
   	width: 100%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: languages 2s ease;
+  	-webkit-animation: languages 2s ease;
 }
 .spanish {
   	width: 100%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: languages 2s ease;
+  	-webkit-animation: languages 2s ease;
 }
 .english {
   	width: 98%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: languages 2s ease;
+  	-webkit-animation: languages 2s ease;
 }
 .german {
   	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: languages 2s ease;
+  	-webkit-animation: languages 2s ease;
 }
 .french {
   	width: 25%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: languages 2s ease;
+  	-webkit-animation: languages 2s ease;
 }
 
 .ccpp {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: languages 2s ease;
+  	-webkit-animation: languages 2s ease;
 }
 .fortranjava {
   	width: 70%;
@@ -405,9 +405,9 @@ ul#nav li.current a { color: #FFCC00; }
 }
 
 
-@-moz-keyframes photoshop {
+@-moz-keyframes languages {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
@@ -430,9 +430,9 @@ ul#nav li.current a { color: #FFCC00; }
   100% { width: 50%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes languages {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 100%;  }
 }
 @-webkit-keyframes illustrator {
   0%   { width: 0px;  }
