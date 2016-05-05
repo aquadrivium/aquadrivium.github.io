@@ -344,28 +344,28 @@ ul#nav li.current a { color: #FFCC00; }
 
 .catalan {
   	width: 100%;
-  	-moz-animation: languages 2s ease;
-  	-webkit-animation: languages 2s ease;
+  	-moz-animation: catalan 2s ease;
+  	-webkit-animation: catalan 2s ease;
 }
 .spanish {
   	width: 100%;
-  	-moz-animation: languages 2s ease;
-  	-webkit-animation: languages 2s ease;
+  	-moz-animation: spanish 2s ease;
+  	-webkit-animation: spanish 2s ease;
 }
 .english {
   	width: 98%;
-  	-moz-animation: languages 2s ease;
-  	-webkit-animation: languages 2s ease;
+  	-moz-animation: english 2s ease;
+  	-webkit-animation: english 2s ease;
 }
 .german {
   	width: 50%;
-  	-moz-animation: languages 2s ease;
-  	-webkit-animation: languages 2s ease;
+  	-moz-animation: german 2s ease;
+  	-webkit-animation: german 2s ease;
 }
 .french {
   	width: 25%;
-  	-moz-animation: languages 2s ease;
-  	-webkit-animation: languages 2s ease;
+  	-moz-animation: french 2s ease;
+  	-webkit-animation: french 2s ease;
 }
 
 .ccpp {
@@ -405,10 +405,48 @@ ul#nav li.current a { color: #FFCC00; }
 }
 
 
-@-moz-keyframes languages {
+@-moz-keyframes catalan {
   0%   { width: 0px;  }
   100% { width: 100%;  }
 }
+@-webkit-keyframes catalan {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
+}
+@-moz-keyframes spanish {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
+}
+@-webkit-keyframes spanish {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
+}
+@-moz-keyframes english {
+  0%   { width: 0px;  }
+  100% { width: 98%;  }
+}
+@-webkit-keyframes english {
+  0%   { width: 0px;  }
+  100% { width: 98%;  }
+}
+@-moz-keyframes german {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes german {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes french {
+  0%   { width: 0px;  }
+  100% { width: 25%;  }
+}
+@-webkit-keyframes french {
+  0%   { width: 0px;  }
+  100% { width: 25%;  }
+}
+
+
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 55%;  }
