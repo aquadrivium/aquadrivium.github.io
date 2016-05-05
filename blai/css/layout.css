@@ -342,26 +342,32 @@ ul#nav li.current a { color: #FFCC00; }
    border-radius: 3px 0 0 3px;
 }
 
-.castellano {
+.catalan {
   	width: 100%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.ingles {
-  	width: 75%;
+.spanish {
+  	width: 100%;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
+}
+.english {
+  	width: 98%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.catalan {
-  	width: 85%;
+.german {
+  	width: 50%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.italiano {
-  	width: 65%;
+.french {
+  	width: 25%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
+
 .ccpp {
   	width: 80%;
   	-moz-animation: html5 2s ease;
