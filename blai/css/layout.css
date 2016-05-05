@@ -297,6 +297,7 @@ ul#nav li.current a { color: #FFCC00; }
 }
 #resume .info a::after {
     content: url(../images/external_link.svg);
+    margin: 0 0 0 5px;
 }
 /*----------------------------------------------*/
 /*	Skill Bars
