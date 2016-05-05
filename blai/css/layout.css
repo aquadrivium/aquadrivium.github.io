@@ -295,6 +295,9 @@ ul#nav li.current a { color: #FFCC00; }
 #resume .item-title {
    margin-top: 18px;
 }
+#resume .info a::after {
+    content: url(../images/external_link.svg);
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
