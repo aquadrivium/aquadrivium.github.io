@@ -346,7 +346,6 @@ ul#nav li.current a { color: #FFCC00; }
   	width: 100%;
   	-moz-animation: catalan 2s ease;
   	-webkit-animation: catalan 2s ease;
-  	content: "Native";
 }
 .spanish {
   	width: 100%;
@@ -354,7 +353,7 @@ ul#nav li.current a { color: #FFCC00; }
   	-webkit-animation: spanish 2s ease;
 }
 .english {
-  	width: 98%;
+  	width: 95%;
   	-moz-animation: english 2s ease;
   	-webkit-animation: english 2s ease;
 }
@@ -424,11 +423,11 @@ ul#nav li.current a { color: #FFCC00; }
 }
 @-moz-keyframes english {
   0%   { width: 0px;  }
-  100% { width: 98%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes english {
   0%   { width: 0px;  }
-  100% { width: 98%;  }
+  100% { width: 95%;  }
 }
 @-moz-keyframes german {
   0%   { width: 0px;  }
