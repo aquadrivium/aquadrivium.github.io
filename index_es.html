@@ -1424,6 +1424,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="contact-grids">
 					<div class="col-md-6 contact-grid-left">
 						<p>Podéis poneros en contacto con nosotros vía email. </p>
+                        <form id="contact_form" action="https://formspree.io/a.quadrivium@gmail.com" method="POST" target="_blank">
+                            <input type="text" name="name" value="Nombre" onfocus="if(this.value == 'Nombre') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Nombre';}">
+                            <input type="email" name="_replyto" value="Email" required="true" onfocus="if(this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}">
+                            <input type="text" name="phone" value="Teléfono" onfocus="if(this.value == 'Teléfono') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Teléfono';}">
+                            <input type="text" name="subject" value="Asunto" onfocus="if(this.value == 'Asunto') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Asunto';}">
+                            <textarea id="form_textarea" name="msg" onfocus="if(document.getElementById('form_textarea').value == 'Tu mensaje...') {$('#form_textarea').val('');}" onblur="if(this.value == '') this.value='Tu mensaje...';">Tu mensaje...</textarea>
+                            <span class="submit-btn"><input type="submit" name="submit" id="submit_btn" value="Enviar"></span>
 						<!--<form id="contact_form" method="post" action="http://quadrivium.netai.net/contact_es.php">
 							<input type="text" name="name" value="Nombre" onfocus="if(this.value == 'Nom') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Nom';}">
 							<input type="email" name="email" value="Email" required="true" onfocus="if(this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}">
