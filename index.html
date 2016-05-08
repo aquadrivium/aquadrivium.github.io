@@ -1278,14 +1278,20 @@
 				<div class="contact-grids">
 					<div class="col-md-6 contact-grid-left">
 						<!--<p>Podeu posar-vos en contacte amb nosaltres via email. </p>-->
-						<form id="contact_form" method="post" action="https://warm-savannah-85702.herokuapp.com/contact.php">
+                        <form id="contact_form" action="https://formspree.io/a.quadrivium@gmail.com" method="POST">
+                            <input type="text" name="name" value="Nom" onfocus="if(this.value == 'Nom') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Nom';}">
+                            <input type="email" name="_replyto" value="Email" required="true" onfocus="if(this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}">
+                            <input type="text" name="phone" value="Telèfon" onfocus="if(this.value == 'Telèfon') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Telèfon';}">
+                            <input type="text" name="subject" value="Assumpte" onfocus="if(this.value == 'Assumpte') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Assumpte';}">
+                            <textarea id="form_textarea" name="msg" onfocus="if(document.getElementById('form_textarea').value == 'El teu missatge...') {$('#form_textarea').val('');}" onblur="if(this.value == '') this.value='El teu missatge...';">El teu missatge...</textarea>
+                            <span class="submit-btn"><input type="submit" name="submit" id="submit_btn" value="Envia"></span>
+						<!--<form id="contact_form" method="post" action="https://warm-savannah-85702.herokuapp.com/contact.php">
 							<input type="text" name="name" value="Nom" onfocus="if(this.value == 'Nom') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Nom';}">
 							<input type="email" name="email" value="Email" required="true" onfocus="if(this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}">
 							<input type="text" name="phone" value="Telèfon" onfocus="if(this.value == 'Telèfon') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Telèfon';}">
 							<input type="text" name="subject" value="Assumpte" onfocus="if(this.value == 'Assumpte') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Assumpte';}">
 							<textarea id="form_textarea" name="msg" onfocus="if(document.getElementById('form_textarea').value == 'El teu missatge...') {$('#form_textarea').val('');}" onblur="if(this.value == '') this.value='El teu missatge...';">El teu missatge...</textarea>
-							<!--<p class="conditions"> <span>*</span>scelerisque sit amet felis sit nunc.</p>-->
-							<span class="submit-btn"><input type="submit" name="submit" id="submit_btn" value="Envia"></span>
+							<span class="submit-btn"><input type="submit" name="submit" id="submit_btn" value="Envia"></span>-->
 						</form>
 						<div class="col-md-12 text-center">
 							<h5>Email</h5>
