@@ -432,21 +432,18 @@
 
       <div class="row">
 
-
-         <div class="six columns">
-            <img src="images/blai-200.jpg" alt="" />
-         </div>
-
-         <div class="six columns">
-            <form id="contact_form" action="https://formspree.io/blai.pie.valls@gmail.com" method="POST" target="_blank">
+         <form id="contact_form" action="https://formspree.io/blai.pie.valls@gmail.com" method="POST" target="_blank">
+            <div class="six columns">
                <input type="text" name="name" value="Name" onfocus="if(this.value == 'Name') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Name';}">
                <input type="email" name="_replyto" value="Email" required="true" onfocus="if(this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}">
                <input type="text" name="phone" value="Phone" onfocus="if(this.value == 'Phone') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Phone';}">
+            </div>
+            <div class="six columns">
                <input type="text" name="subject" value="Subject" onfocus="if(this.value == 'Subject') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Subject';}">
                <textarea id="form_textarea" name="msg" onfocus="if(document.getElementById('form_textarea').value == 'Your message...') {$('#form_textarea').val('');}" onblur="if(this.value == '') this.value='Your message...';">Your message...</textarea>
                <span class="submit-btn"><input type="submit" name="submit" id="submit_btn" value="Send"></span>
-            </form>
-         </div>
+            </div>
+         </form>
 
          <div class="twelve columns">
             <p>You can reach me via social networks or just send me an <a class="smoothscroll" href="#about">email</a>.</p>
