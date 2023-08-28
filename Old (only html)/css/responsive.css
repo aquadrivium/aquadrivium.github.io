@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,200,700,800,900);
+
+@media (max-width:3000px){
+	
+	.info-l-st{display: inline;}
+	.info-l-mob{display: none;}
+	/*.events {padding: 3em 15em;}*/
+	.nav-st{display: inline;}
+	.nav-mob{display: none;}
+	.nav-st-esp{display: inline;}
+	.nav-mob-esp{display: none;}
+}
+
+@media (max-width:1400px){
+
+
+}
+
+@media (max-width:1280px){
+	
+
+
+}
+@media (max-width:1200px){
+	.info-l-mob{display: inline;}
+	.info-l-st{display: none;}
+	.item-prox-events li.link-info-event a{ background:#FFF;}
+	.cont-people-say p{
+		font-size: 0.89em;
+	}
+	.port-info h4 a{
+		font-size: 95%;
+	}
+}
+
+@media (max-width:1020px){
+	.item-prox-events li:first-child {width:100%;}
+	.item-prox-events li { 
+		width:100%; 
+		margin-left: 30px;
+	}
+	.item-prox-events .link-info-event { 
+		position:absolute; 
+		right:0; 
+		top:12px; 
+		text-align:center; 
+	}
+	.prox-events .data-title-list {display: none;}
+}
+
+
+@media (max-width:992px){
+	.que-fem-icons p{ 
+		text-align: center;
+		width: 50%;
+		margin-left: 25%;
+		font-size: 14px;
+	}
+	.hide-responsibe{
+		display: none;
+	}
+	.bigbang_992{
+		display: none;
+	}
+	.bigbang{
+		display: block;
+	}
+	.cont-people-say {
+		/*margin: 0 20px 20px 20px;*/
+		height: 450px;
+	}
+	.team-member p,
+	.cont-people-say p{
+		font-size: 0.8em;
+	}
+	.historial p {
+	    margin: 0px auto 0px;
+	}
+}
+@media (max-width:960px){
+	#portfoliolist .portfolio{
+		margin: 2.5em 0.5em 0px;
+	}
+}
+
+@media (max-width:760px){
+	html, body {font-size: 96%;}
+	nav li:first-child img{ width: 22px; }
+	.disp-760{ display: none;}
+	.none-760{ display: inherit;}
+}
+@media (max-width:600px){
+	html, body {font-size: 93%;}
+	nav li:first-child img{ width: 20px; }
+}
+@media (max-width:500px){
+	html, body { font-size: 90%;}
+	nav li:first-child img{ width: 18px; }
+}
+@media (max-width: 460px){
+	.nav-st-esp{display: none;}
+	.nav-mob-esp{display: inline;}
+	nav li{width: 18%; margin: 0px;}
+}
+@media (max-width: 400px){
+	html, body { font-size: 85%;}
+	.nav-st{display: none;}
+	.nav-mob{display: inline;}
+	nav li{width: 18%; margin: 0px;}
+}
+@media (max-width: 360px){
+	.item-prox-events li:first-child h4{
+		font-size: 17px;
+	}
+	li.fecha-responsive{
+		display: none;
+	}
+	.item-prox-events li.link-info-event a{
+		font-size: 0;
+	}
+}
