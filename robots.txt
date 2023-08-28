@@ -1,0 +1,5 @@
+Sitemap: http://www.quadrivium.cat/sitemap.xml
+Sitemap: http://www.quadrivium.cat/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
